@@ -14,5 +14,10 @@ public class Runner {
         Show show = new Show();
         show.movieDetails(poster);
 
+        System.out.println("-----------------------\n-------------------------");
+
+        IplTeams iplTeams= new IplTeams();
+        IPL ipl = new IPL();
+        ipl.getDetails(iplTeams);
     }
 }
