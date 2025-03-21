@@ -19,5 +19,20 @@ public class Runner {
         IplTeams iplTeams= new IplTeams();
         IPL ipl = new IPL();
         ipl.getDetails(iplTeams);
+
+        System.out.println("-----------------------\n-------------------------");
+
+        SpaceX spaceX=new SpaceX();
+        Space space =new Space();
+        space.spaceAgency(spaceX);
+
+        System.out.println("-----------------------\n-------------------------");
+
+        Dolo dolo = new Dolo();
+        Medicine medicine = new Medicine();
+        medicine.medicineBrand(dolo);
+
+        System.out.println("-----------------------\n-------------------------");
+
     }
 }
