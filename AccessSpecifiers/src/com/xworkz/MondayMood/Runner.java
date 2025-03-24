@@ -13,5 +13,11 @@ public class Runner {
         PG pg = new PG();
         PgOwner pgOwner= new PgOwner();
         pgOwner.ownerAction(pg);
+
+        System.out.println("-----------------------------------------\n-----------------------------------");
+
+        MayuraFrights mayuraFrights = new MayuraFrights();
+        MayuraHR mayuraHR=new MayuraHR();
+        mayuraHR.getDetails(mayuraFrights);
     }
 }
