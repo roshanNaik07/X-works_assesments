@@ -8,6 +8,8 @@ public class CricketRunner {
 
        cricket.watch();
        cricket.profit();
+       ticket.cost=10;
+       ticket.displayCost();
 
     }
 }

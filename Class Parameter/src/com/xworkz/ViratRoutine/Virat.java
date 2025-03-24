@@ -38,7 +38,6 @@ public class Virat {
     public void relax(){
         if(this.ticket!=null){
             System.out.println("Running relax in Virat");
-            ticket.cost();
             ticket.buy();
             ticket.sell();
         }

@@ -1,6 +1,8 @@
 package com.xworkz.cricket;
 
 public class Ticket {
+
+    int cost;
     public void type()
     {
         TicketType[] type = TicketType.values();
@@ -10,13 +12,13 @@ public class Ticket {
         }
     }
 
-    public void cost(){
-        System.out.println("Running cost in ticket");
-    }
     public void buy(){
         System.out.println("Running buy in ticket");
     }
     public void sell(){
         System.out.println("Running sell in ticket");
+    }
+    public void displayCost(){
+        System.out.println("Cost is "+this.cost);
     }
 }
