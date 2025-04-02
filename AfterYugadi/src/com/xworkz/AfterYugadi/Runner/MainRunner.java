@@ -665,5 +665,316 @@ public class MainRunner {
         mojoPizza.getOffer();
         mojoPizza.makePizza();
 
+        System.out.println("--------------------------------------28--------------------------------------------");
+        Chocolate chocolate = new Chocolate();
+        chocolate.buyChocolate();
+        chocolate.eatChocolate();
+        chocolate.makeChocolate();
+        chocolate.wrapChocolate();
+        chocolate.melt();
+
+        System.out.println();
+        Chocolate chocolate1 = new DairyMilk();
+        chocolate1.buyChocolate();
+        chocolate1.eatChocolate();
+        chocolate1.makeChocolate();
+        chocolate1.wrapChocolate();
+        chocolate1.melt();
+
+        System.out.println();
+        DairyMilk dairyMilk = new DairyMilk();
+        dairyMilk.buyChocolate();
+        dairyMilk.eatChocolate();
+        dairyMilk.makeChocolate();
+        dairyMilk.wrapChocolate();
+        dairyMilk.melt();
+
+        System.out.println("--------------------------------------29--------------------------------------------");
+        Chocolate chocolate2 = new Chocolate();
+        chocolate2.buyChocolate();
+        chocolate2.eatChocolate();
+        chocolate2.makeChocolate();
+        chocolate2.wrapChocolate();
+        chocolate2.melt();
+
+        System.out.println();
+        Chocolate chocolate3 = new Munch();
+        chocolate3.buyChocolate();
+        chocolate3.eatChocolate();
+        chocolate3.makeChocolate();
+        chocolate3.wrapChocolate();
+        chocolate3.melt();
+
+        System.out.println();
+        Munch munch = new Munch();
+        munch.buyChocolate();
+        munch.eatChocolate();
+        munch.makeChocolate();
+        munch.wrapChocolate();
+        munch.melt();
+
+        System.out.println("--------------------------------------30--------------------------------------------");
+        Chocolate chocolate4 = new Chocolate();
+        chocolate4.buyChocolate();
+        chocolate4.eatChocolate();
+        chocolate4.makeChocolate();
+        chocolate4.wrapChocolate();
+        chocolate4.melt();
+
+        System.out.println();
+        Chocolate chocolate5 = new Alpenliebe();
+        chocolate5.buyChocolate();
+        chocolate5.eatChocolate();
+        chocolate5.makeChocolate();
+        chocolate5.wrapChocolate();
+        chocolate5.melt();
+
+        System.out.println();
+        Alpenliebe alpenliebe = new Alpenliebe();
+        alpenliebe.buyChocolate();
+        alpenliebe.eatChocolate();
+        alpenliebe.makeChocolate();
+        alpenliebe.wrapChocolate();
+        alpenliebe.melt();
+
+        System.out.println("--------------------------------------31--------------------------------------------");
+        Chocolate chocolate6 = new Chocolate();
+        chocolate6.buyChocolate();
+        chocolate6.eatChocolate();
+        chocolate6.makeChocolate();
+        chocolate6.wrapChocolate();
+        chocolate6.melt();
+
+        System.out.println();
+        Chocolate chocolate7 = new MilkyBar();
+        chocolate7.buyChocolate();
+        chocolate7.eatChocolate();
+        chocolate7.makeChocolate();
+        chocolate7.wrapChocolate();
+        chocolate7.melt();
+
+        System.out.println();
+        MilkyBar milkyBar = new MilkyBar();
+        milkyBar.buyChocolate();
+        milkyBar.eatChocolate();
+        milkyBar.makeChocolate();
+        milkyBar.wrapChocolate();
+        milkyBar.melt();
+
+        System.out.println("--------------------------------------32--------------------------------------------");
+        Chocolate chocolate8 = new Chocolate();
+        chocolate8.buyChocolate();
+        chocolate8.eatChocolate();
+        chocolate8.makeChocolate();
+        chocolate8.wrapChocolate();
+        chocolate8.melt();
+
+        System.out.println();
+        Chocolate chocolate9 = new KitKat();
+        chocolate9.buyChocolate();
+        chocolate9.eatChocolate();
+        chocolate9.makeChocolate();
+        chocolate9.wrapChocolate();
+        chocolate9.melt();
+
+        System.out.println();
+        KitKat kitKat = new KitKat();
+        kitKat.buyChocolate();
+        kitKat.eatChocolate();
+        kitKat.makeChocolate();
+        kitKat.wrapChocolate();
+        kitKat.melt();
+
+        System.out.println("--------------------------------------33--------------------------------------------");
+        Chocolate chocolate10 = new Chocolate();
+        chocolate10.buyChocolate();
+        chocolate10.eatChocolate();
+        chocolate10.makeChocolate();
+        chocolate10.wrapChocolate();
+        chocolate10.melt();
+
+        System.out.println();
+        Chocolate chocolate11 = new James();
+        chocolate11.buyChocolate();
+        chocolate11.eatChocolate();
+        chocolate11.makeChocolate();
+        chocolate11.wrapChocolate();
+        chocolate11.melt();
+
+        System.out.println();
+        James james = new James();
+        james.buyChocolate();
+        james.eatChocolate();
+        james.makeChocolate();
+        james.wrapChocolate();
+        james.melt();
+
+        System.out.println("--------------------------------------34--------------------------------------------");
+        Phone phone = new Phone();
+        phone.buy();
+        phone.off();
+        phone.on();
+        phone.changeDisplay();
+        phone.repair();
+
+        System.out.println();
+        Phone phone1 = new Lava();
+        phone1.buy();
+        phone1.off();
+        phone1.on();
+        phone1.changeDisplay();
+        phone1.repair();
+
+        System.out.println();
+        Lava lava = new Lava();
+        lava.buy();
+        lava.off();
+        lava.on();
+        lava.changeDisplay();
+        lava.repair();
+
+        System.out.println("--------------------------------------35--------------------------------------------");
+        Phone phone2 = new Phone();
+        phone2.buy();
+        phone2.off();
+        phone2.on();
+        phone2.changeDisplay();
+        phone2.repair();
+
+        System.out.println();
+        Phone phone3 = new Iphone();
+        phone3.buy();
+        phone3.off();
+        phone3.on();
+        phone3.changeDisplay();
+        phone3.repair();
+
+        System.out.println();
+        Iphone iphone = new Iphone();
+        iphone.buy();
+        iphone.off();
+        iphone.on();
+        iphone.changeDisplay();
+        iphone.repair();
+
+        System.out.println("--------------------------------------36--------------------------------------------");
+        Phone phone4 = new Phone();
+        phone4.buy();
+        phone4.off();
+        phone4.on();
+        phone4.changeDisplay();
+        phone4.repair();
+
+        System.out.println();
+        Phone phone5 = new Xiomi();
+        phone5.buy();
+        phone5.off();
+        phone5.on();
+        phone5.changeDisplay();
+        phone5.repair();
+
+        System.out.println();
+        Xiomi xiomi = new Xiomi();
+        xiomi.buy();
+        xiomi.off();
+        xiomi.on();
+        xiomi.changeDisplay();
+        xiomi.repair();
+
+        System.out.println("--------------------------------------37--------------------------------------------");
+        Phone phone6 = new Phone();
+        phone6.buy();
+        phone6.off();
+        phone6.on();
+        phone6.changeDisplay();
+        phone6.repair();
+
+        System.out.println();
+        Phone phone7 = new Vivo();
+        phone7.buy();
+        phone7.off();
+        phone7.on();
+        phone7.changeDisplay();
+        phone7.repair();
+
+        System.out.println();
+        Vivo vivo = new Vivo();
+        vivo.buy();
+        vivo.off();
+        vivo.on();
+        vivo.changeDisplay();
+        vivo.repair();
+
+        System.out.println("--------------------------------------38--------------------------------------------");
+        Phone phone8 = new Phone();
+        phone8.buy();
+        phone8.off();
+        phone8.on();
+        phone8.changeDisplay();
+        phone8.repair();
+
+        System.out.println();
+        Phone phone9 = new Oppo();
+        phone9.buy();
+        phone9.off();
+        phone9.on();
+        phone9.changeDisplay();
+        phone9.repair();
+
+        System.out.println();
+        Oppo oppo = new Oppo();
+        oppo.buy();
+        oppo.off();
+        oppo.on();
+        oppo.changeDisplay();
+        oppo.repair();
+
+        System.out.println("--------------------------------------39--------------------------------------------");
+        Phone phone10 = new Phone();
+        phone10.buy();
+        phone10.off();
+        phone10.on();
+        phone10.changeDisplay();
+        phone10.repair();
+
+        System.out.println();
+        Phone phone11 = new Iqoo();
+        phone11.buy();
+        phone11.off();
+        phone11.on();
+        phone11.changeDisplay();
+        phone11.repair();
+
+        System.out.println();
+        Iqoo iqoo = new Iqoo();
+        iqoo.buy();
+        iqoo.off();
+        iqoo.on();
+        iqoo.changeDisplay();
+        iqoo.repair();
+
+        System.out.println("--------------------------------------40--------------------------------------------");
+        Phone phone12 = new Phone();
+        phone12.buy();
+        phone12.off();
+        phone12.on();
+        phone12.changeDisplay();
+        phone12.repair();
+
+        System.out.println();
+        Phone phone13 = new Motrola();
+        phone13.buy();
+        phone13.off();
+        phone13.on();
+        phone13.changeDisplay();
+        phone13.repair();
+
+        System.out.println();
+        Motrola motrola = new Motrola();
+        motrola.buy();
+        motrola.off();
+        motrola.on();
+        motrola.changeDisplay();
+        motrola.repair();
     }
 }
