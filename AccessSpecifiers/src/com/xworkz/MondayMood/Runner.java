@@ -19,5 +19,11 @@ public class Runner {
         MayuraFrights mayuraFrights = new MayuraFrights();
         MayuraHR mayuraHR=new MayuraHR();
         mayuraHR.getDetails(mayuraFrights);
+
+        System.out.println("-----------------------------------------\n-----------------------------------");
+
+        Resort resort = new Resort();
+        ResortOwner resortOwner = new ResortOwner();
+        resortOwner.getdetails(resort);
     }
 }
