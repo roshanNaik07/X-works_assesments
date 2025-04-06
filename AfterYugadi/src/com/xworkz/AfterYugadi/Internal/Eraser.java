@@ -7,21 +7,21 @@ public class Eraser {
     }
 
     public void buy(){
-        System.out.println("Running plugIn in buy");
+        System.out.println("Running  buy in  Eraser");
     }
 
     public void eraser(){
-        System.out.println("Running remove in eraser");
+        System.out.println("Running  eraser in Eraser");
     }
 
     public void color(){
-        System.out.println("Running color in color");
+        System.out.println("Running  color in Eraser");
     }
 
     public void use(){
-        System.out.println("Running price in use");
+        System.out.println("Running  use in Eraser");
     }
     public void price(){
-        System.out.println("Running capacity in price");
+        System.out.println("Running  price in Eraser");
     }
 }

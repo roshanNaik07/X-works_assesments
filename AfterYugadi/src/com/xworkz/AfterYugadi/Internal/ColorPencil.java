@@ -7,21 +7,21 @@ public class ColorPencil {
     }
 
     public void buy(){
-        System.out.println("Running plugIn in buy");
+        System.out.println("Running  buy in ColorPencil");
     }
 
     public void write(){
-        System.out.println("Running remove in write");
+        System.out.println("Running  write in ColorPencil");
     }
 
     public void color(){
-        System.out.println("Running color in color");
+        System.out.println("Running  color in ColorPencil");
     }
 
     public void use(){
-        System.out.println("Running price in use");
+        System.out.println("Running  use in ColorPencil");
     }
     public void price(){
-        System.out.println("Running capacity in price");
+        System.out.println("Running  price in ColorPencil");
     }
 }

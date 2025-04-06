@@ -7,21 +7,21 @@ public class FitnessBand {
     }
 
     public void set(){
-        System.out.println("Running plugIn in set");
+        System.out.println("Running set in FitnessBand");
     }
 
     public void buy(){
-        System.out.println("Running remove in buy");
+        System.out.println("Running buy in FitnessBand");
     }
 
     public void sell(){
-        System.out.println("Running color in sell");
+        System.out.println("Running sell in FitnessBand");
     }
 
     public void gift(){
-        System.out.println("Running price in gift");
+        System.out.println("Running gift in FitnessBand");
     }
     public void price(){
-        System.out.println("Running capacity in price");
+        System.out.println("Running price in FitnessBand");
     }
 }

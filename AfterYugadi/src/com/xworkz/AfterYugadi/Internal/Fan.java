@@ -7,21 +7,21 @@ public class Fan {
     }
 
     public void buy(){
-        System.out.println("Running plugIn in buy");
+        System.out.println("Running plugIn in Fan");
     }
 
     public void rotate(){
-        System.out.println("Running remove in Rotate");
+        System.out.println("Running remove in Fan");
     }
 
     public void color(){
-        System.out.println("Running color in color");
+        System.out.println("Running color in Fan");
     }
 
     public void brand(){
-        System.out.println("Running price in brand");
+        System.out.println("Running price in Fan");
     }
     public void price(){
-        System.out.println("Running capacity in price");
+        System.out.println("Running capacity in Fan");
     }
 }

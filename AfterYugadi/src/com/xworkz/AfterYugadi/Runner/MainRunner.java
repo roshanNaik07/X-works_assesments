@@ -6,7 +6,7 @@ public class MainRunner {
 
     public static void main(String[] args) {
 
-        System.out.println("1) ---------------------------------------------------------");
+        System.out.println("--------------------------------1) ---------------------------------------------------------");
 
         Festival festival = new Festival();
         festival.celebrate();
@@ -93,7 +93,7 @@ public class MainRunner {
         tv2.sellTv();
 
         System.out.println();
-        Tv tv3 = new Sony();
+        Tv tv3 = new Samsung();
         tv3.buyTv();
         tv3.deliver();
         tv3.offTv();
@@ -167,7 +167,7 @@ public class MainRunner {
         tv8.sellTv();
 
         System.out.println();
-        Tv tv9 = new Tv();
+        Tv tv9 = new Lg();
         tv9.buyTv();
         tv9.deliver();
         tv9.offTv();
@@ -554,7 +554,7 @@ public class MainRunner {
         pizza.makePizza();
 
         System.out.println();
-        Pizza pizza1 = new Pizza();
+        Pizza pizza1 = new Dominos();
         pizza1.deliverPizza();
         pizza1.eatPizza();
         pizza1.orderPizza();
