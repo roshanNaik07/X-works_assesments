@@ -30,4 +30,8 @@ public class Gold extends Metal{
     public void price(){
         System.out.println("Running price in Gold");
     }
+
+    public void bill(){
+        System.out.println("Running bill in Gold");
+    }
 }

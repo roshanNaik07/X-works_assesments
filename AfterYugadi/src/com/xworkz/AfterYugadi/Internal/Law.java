@@ -30,4 +30,8 @@ public class Law extends Subject{
     public void price(){
         System.out.println("Running  price in Law");
     }
+
+    public void explain(){
+        System.out.println("Running explain in Law");
+    }
 }

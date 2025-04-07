@@ -30,4 +30,8 @@ public class Bajaj extends IronBox{
     public void price(){
         System.out.println("Running price in Bajaj");
     }
+
+    public void company(){
+        System.out.println("Running company in Bajaj");
+    }
 }

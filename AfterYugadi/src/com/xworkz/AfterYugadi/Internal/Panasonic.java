@@ -28,4 +28,8 @@ public class Panasonic extends Battery{
     public void price(){
         System.out.println("Running  price in Panasonic");
     }
+
+    public void lifeSpan(){
+        System.out.println("Running lifeSpan in Panasonic");
+    }
 }

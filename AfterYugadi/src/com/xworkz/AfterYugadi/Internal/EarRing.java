@@ -30,4 +30,8 @@ public class EarRing extends Accessories{
     public void color(){
         System.out.println("Running color in EarRing");
     }
+
+    public void material(){
+        System.out.println("Running material in EarRing");
+    }
 }

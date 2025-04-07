@@ -30,4 +30,8 @@ public class Bracelet extends Ornament{
     public void price(){
         System.out.println("Running price in Bracelet");
     }
+
+    public void material(){
+        System.out.println("Running material in Bracelet");
+    }
 }

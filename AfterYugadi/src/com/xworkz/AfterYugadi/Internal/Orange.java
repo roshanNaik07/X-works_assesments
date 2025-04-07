@@ -30,4 +30,8 @@ public class Orange extends Color{
     public void price(){
         System.out.println("Running  price in Orange");
     }
+
+    public void manufacture(){
+        System.out.println("Running manufacture in Orange");
+    }
 }

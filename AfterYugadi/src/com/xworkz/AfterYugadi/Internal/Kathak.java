@@ -30,4 +30,8 @@ public class Kathak extends Dance{
     public void compitation(){
         System.out.println("Running compitation in Kathak");
     }
+
+    public void show(){
+        System.out.println("Running show in Kathak");
+    }
 }

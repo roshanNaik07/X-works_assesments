@@ -29,4 +29,8 @@ public class Bright extends Pen{
     public void price(){
         System.out.println("Running  price in Bright");
     }
+
+    public void brand(){
+        System.out.println("Running brand in Bright");
+    }
 }

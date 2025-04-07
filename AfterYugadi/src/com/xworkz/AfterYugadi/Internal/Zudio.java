@@ -29,4 +29,8 @@ public class Zudio extends Shirt{
     public void price(){
         System.out.println("Running price in Zudio");
     }
+
+    public void choice(){
+        System.out.println("Running choice is Zudio");
+    }
 }

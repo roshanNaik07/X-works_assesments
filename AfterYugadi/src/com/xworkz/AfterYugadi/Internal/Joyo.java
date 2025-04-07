@@ -30,4 +30,8 @@ public class Joyo extends Bucket{
     public void price(){
         System.out.println("Running price in Joyo");
     }
+
+    public void manufacture(){
+        System.out.println("Running manufacture in Joyo");
+    }
 }

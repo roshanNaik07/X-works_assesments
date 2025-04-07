@@ -1,5 +1,6 @@
 package com.xworkz.AfterYugadi.Runner;
 
+import com.xworkz.AfterYugadi.Casting.*;
 import com.xworkz.AfterYugadi.Internal.*;
 
 public class MainRunner {
@@ -1199,6 +1200,13 @@ public class MainRunner {
         spotify.play();
         spotify.playlist();
 
+        System.out.println();
+        System.out.println("Casting");
+        MusicApp musicApp = new MusicApp();
+        musicApp.runApp(song);
+        System.out.println();
+        musicApp.runApp(spotify);
+
         System.out.println("---------------------------------------51----------------------------------------------");
         Singer singer = new Singer();
         singer.concert();
@@ -1222,6 +1230,12 @@ public class MainRunner {
         pop.learn();
         pop.perform();
         pop.sings();
+
+        System.out.println();
+        System.out.println("Casting");
+        PopCulture popCulture = new PopCulture();
+        popCulture.songType(singer);
+        popCulture.songType(pop);
 
         System.out.println("---------------------------------------52----------------------------------------------");
         Dance dance = new Dance();
@@ -1247,6 +1261,12 @@ public class MainRunner {
         kathak.teach();
         kathak.practice();
 
+        System.out.println();
+        System.out.println("Casting");
+        DanceClass danceClass = new DanceClass();
+        danceClass.performDance(dance);
+        danceClass.performDance(kathak);
+
         System.out.println("---------------------------------------53----------------------------------------------");
         Chair chair = new Chair();
         chair.breakChair();
@@ -1270,6 +1290,12 @@ public class MainRunner {
         wheelChair.price();
         wheelChair.color();
         wheelChair.manufacture();
+
+        System.out.println();
+        System.out.println("Casting");
+        ChairBrand chairBrand = new ChairBrand();
+        chairBrand.properties(chair);
+        chairBrand.properties(wheelChair);
 
         System.out.println("---------------------------------------54----------------------------------------------");
         Bottle bottle = new Bottle();
@@ -1295,6 +1321,12 @@ public class MainRunner {
         plasticBottle.fill();
         plasticBottle.manufacture();
 
+        System.out.println();
+        System.out.println("Casting");
+        BottleType bottleType = new BottleType();
+        bottleType.bottleProperties(bottle);
+        bottleType.bottleProperties(plasticBottle);
+
         System.out.println("---------------------------------------55----------------------------------------------");
         Game game = new Game();
         game.compitation();
@@ -1318,6 +1350,12 @@ public class MainRunner {
         volleyBall.organise();
         volleyBall.timing();
         volleyBall.practice();
+
+        System.out.println();
+        System.out.println("Casting");
+        BallType ballType = new BallType();
+        ballType.ballMaterial(game);
+        ballType.ballMaterial(volleyBall);
 
         System.out.println("---------------------------------------56----------------------------------------------");
         Pendrive pendrive = new Pendrive();
@@ -1343,6 +1381,12 @@ public class MainRunner {
         sandisk.plugIn();
         sandisk.upload();
 
+        System.out.println();
+        System.out.println("Casting");
+        PendriveBrand pendriveBrand = new PendriveBrand();
+        pendriveBrand.specifications(pendrive);
+        pendriveBrand.specifications(sandisk);
+
         System.out.println("---------------------------------------57----------------------------------------------");
         Accessories accessories = new Accessories();
         accessories.buy();
@@ -1366,6 +1410,12 @@ public class MainRunner {
         earRing.prepare();
         earRing.wear();
         earRing.sell();
+
+        System.out.println();
+        System.out.println("Casting");
+        EarRingType earRingType = new EarRingType();
+        earRingType.EarRingColor(earRing);
+        earRingType.EarRingColor(accessories);
 
         System.out.println("---------------------------------------58----------------------------------------------");
         BackCover backCover = new BackCover();
@@ -1391,6 +1441,12 @@ public class MainRunner {
         silicon.remove();
         silicon.theme();
 
+        System.out.println();
+        System.out.println("Casting");
+        PhoneCover phoneCover = new PhoneCover();
+        phoneCover.coverMaterial(backCover);
+        phoneCover.coverMaterial(silicon);
+
         System.out.println("---------------------------------------59----------------------------------------------");
         Remote remote = new Remote();
         remote.addBattery();
@@ -1414,6 +1470,12 @@ public class MainRunner {
         sunDirect.color();
         sunDirect.onTv();
         sunDirect.offTv();
+
+        System.out.println();
+        System.out.println("Casting");
+        DishBrand dishBrand = new DishBrand();
+        dishBrand.DishMaterial(remote);
+        dishBrand.DishMaterial(sunDirect);
 
         System.out.println("---------------------------------------60----------------------------------------------");
         Charger charger = new Charger();
@@ -1439,6 +1501,12 @@ public class MainRunner {
         lapCharger.price();
         lapCharger.remove();
 
+        System.out.println();
+        System.out.println("Casting");
+        ChargerBrand chargerBrand = new ChargerBrand();
+        chargerBrand.chargerType(charger);
+        chargerBrand.chargerType(lapCharger);
+
         System.out.println("---------------------------------------61----------------------------------------------");
         Camera camera = new Camera();
         camera.buy();
@@ -1462,6 +1530,12 @@ public class MainRunner {
         nikon.focus();
         nikon.operate();
         nikon.lens();
+
+        System.out.println();
+        System.out.println("Casting");
+        CameraBrand cameraBrand = new CameraBrand();
+        cameraBrand.type(camera);
+        cameraBrand.type(nikon);
 
         System.out.println("---------------------------------------62----------------------------------------------");
         KeyBoard keyBoard = new KeyBoard();
@@ -1487,7 +1561,14 @@ public class MainRunner {
         zebronics.operate();
         zebronics.price();
 
+        System.out.println();
+        System.out.println("Casting");
+        Electronics electronics = new Electronics();
+        electronics.type(keyBoard);
+        electronics.type(zebronics);
+
         System.out.println("---------------------------------------63----------------------------------------------");
+
         Shirt shirt = new Shirt();
         shirt.buy();
         shirt.iron();
@@ -1510,6 +1591,12 @@ public class MainRunner {
         zudio.color();
         zudio.wash();
         zudio.price();
+
+        System.out.println();
+        System.out.println("Casting");
+        ClothingBrand clothingBrand = new ClothingBrand();
+        clothingBrand.choose(shirt);
+        clothingBrand.choose(zudio);
 
         System.out.println("---------------------------------------64----------------------------------------------");
         Projector projector = new Projector();
@@ -1535,6 +1622,12 @@ public class MainRunner {
         epson.buy();
         epson.size();
 
+        System.out.println();
+        System.out.println("Casting");
+        ProjectorBrand projectorBrand = new ProjectorBrand();
+        projectorBrand.type(projector);
+        projectorBrand.type(epson);
+
         System.out.println("---------------------------------------65----------------------------------------------");
         Battery battery = new Battery();
         battery.blast();
@@ -1557,6 +1650,12 @@ public class MainRunner {
         panasonic.plug();
         panasonic.buy();
         panasonic.price();
+
+        System.out.println();
+        System.out.println("Casting");
+        BatteryBrand batteryBrand = new BatteryBrand();
+        batteryBrand.type(battery);
+        batteryBrand.type(panasonic);
 
         System.out.println("---------------------------------------66----------------------------------------------");
         Color color = new Color();
@@ -1582,6 +1681,12 @@ public class MainRunner {
         orange.price();
         orange.wash();
 
+        System.out.println();
+        System.out.println("Casting");
+        ColorVerity colorVerity = new ColorVerity();
+        colorVerity.type(color);
+        colorVerity.type(orange);
+
         System.out.println("---------------------------------------67----------------------------------------------");
         Fan fan = new Fan();
         fan.brand();
@@ -1605,6 +1710,12 @@ public class MainRunner {
         usha.buy();
         usha.price();
         usha.color();
+
+        System.out.println();
+        System.out.println("Casting");
+        FanBrand fanBrand = new FanBrand();
+        fanBrand.brandName(fan);
+        fanBrand.brandName(usha);
 
         System.out.println("---------------------------------------68----------------------------------------------");
         Cloth cloth = new Cloth();
@@ -1630,6 +1741,12 @@ public class MainRunner {
         bedSheet.color();
         bedSheet.price();
 
+        System.out.println();
+        System.out.println("Casting");
+        BedSheetBrand bedSheetBrand = new BedSheetBrand();
+        bedSheetBrand.brand(cloth);
+        bedSheetBrand.brand(bedSheet);
+
         System.out.println("---------------------------------------69----------------------------------------------");
         Pen pen = new Pen();
         pen.buy();
@@ -1653,6 +1770,12 @@ public class MainRunner {
         bright.color();
         bright.price();
         bright.refill();
+
+        System.out.println();
+        System.out.println("Casting");
+        PenBrand penBrand =new PenBrand();
+        penBrand.type(pen);
+        penBrand.type(bright);
 
         System.out.println("---------------------------------------70----------------------------------------------");
         Rular rular = new Rular();
@@ -1678,6 +1801,13 @@ public class MainRunner {
         apsara.price();
         apsara.color();
 
+        System.out.println();
+        System.out.println("Casting");
+        RularBrand rularBrand = new RularBrand();
+        rularBrand.type(rular);
+        rularBrand.type(apsara);
+
+
         System.out.println("---------------------------------------71----------------------------------------------");
         Eraser eraser = new Eraser();
         eraser.eraser();
@@ -1701,6 +1831,12 @@ public class MainRunner {
         nataraj.buy();
         nataraj.use();
         nataraj.price();
+
+        System.out.println();
+        System.out.println("Casting");
+        EraserBrand eraserBrand = new EraserBrand();
+        eraserBrand.type(eraser);
+        eraserBrand.type(nataraj);
 
         System.out.println("---------------------------------------72----------------------------------------------");
         Pencil pencil = new Pencil();
@@ -1726,6 +1862,12 @@ public class MainRunner {
         domz.price();
         domz.write();
 
+        System.out.println();
+        System.out.println("Casting");
+        PensilBrand pensilBrand = new PensilBrand();
+        pensilBrand.brand(pencil);
+        pensilBrand.brand(domz);
+
         System.out.println("---------------------------------------73----------------------------------------------");
         ColorPencil colorPencil = new ColorPencil();
         colorPencil.buy();
@@ -1749,6 +1891,12 @@ public class MainRunner {
         fibreCastle.write();
         fibreCastle.price();
         fibreCastle.use();
+
+        System.out.println();
+        System.out.println("Casting");
+        ColorPencilBrand colorPencilBrand = new ColorPencilBrand();
+        colorPencilBrand.type(colorPencil);
+        colorPencilBrand.type(fibreCastle);
 
         System.out.println("---------------------------------------74----------------------------------------------");
         Subject subject = new Subject();
@@ -1774,6 +1922,12 @@ public class MainRunner {
         law.price();
         law.write();
 
+        System.out.println();
+        System.out.println("Casting");
+        KashmirLaw kashmirLaw = new KashmirLaw();
+        kashmirLaw.implement(subject);
+        kashmirLaw.implement(law);
+
         System.out.println("---------------------------------------75----------------------------------------------");
         Book book = new Book();
         book.buy();
@@ -1797,6 +1951,12 @@ public class MainRunner {
         physics.price();
         physics.read();
         physics.writer();
+
+        System.out.println();
+        System.out.println("Casting");
+        Astronomy astronomy = new Astronomy();
+        astronomy.learnAstrology(book);
+        astronomy.learnAstrology(physics);
 
         System.out.println("---------------------------------------76----------------------------------------------");
         Watch watch = new Watch();
@@ -1822,6 +1982,12 @@ public class MainRunner {
         titan.sell();
         titan.price();
 
+        System.out.println();
+        System.out.println("Casting");
+        WatchBrand watchBrand = new WatchBrand();
+        watchBrand.chooseBrand(watch);
+        watchBrand.chooseBrand(titan);
+
         System.out.println("---------------------------------------77----------------------------------------------");
         FitnessBand fitnessBand = new FitnessBand();
         fitnessBand.buy();
@@ -1845,6 +2011,12 @@ public class MainRunner {
         miBand.set();
         miBand.sell();
         miBand.price();
+
+        System.out.println();
+        System.out.println("Casting");
+        BandBrand bandBrand = new BandBrand();
+        bandBrand.type(fitnessBand);
+        bandBrand.type(miBand);
 
         System.out.println("---------------------------------------78----------------------------------------------");
         Shampoo shampoo = new Shampoo();
@@ -1870,6 +2042,12 @@ public class MainRunner {
         clinicPlus.price();
         clinicPlus.wash();
 
+        System.out.println();
+        System.out.println("Casting");
+        ShampooBrand shampooBrand = new ShampooBrand();
+        shampooBrand.type(shampoo);
+        shampooBrand.type(clinicPlus);
+
         System.out.println("---------------------------------------79----------------------------------------------");
         Soap soap = new Soap();
         soap.apply();
@@ -1894,6 +2072,12 @@ public class MainRunner {
         medimix.price();
         medimix.wash();
 
+        System.out.println();
+        System.out.println("Casting");
+        SoapBrand soapBrand = new SoapBrand();
+        soapBrand.type(soap);
+        soapBrand.type(medimix);
+
         System.out.println("---------------------------------------80----------------------------------------------");
         Bucket bucket = new Bucket();
         bucket.buy();
@@ -1916,6 +2100,12 @@ public class MainRunner {
         joyo.sell();
         joyo.wash();
         joyo.price();
+
+        System.out.println();
+        System.out.println("Casting");
+        BucketBrand bucketBrand = new BucketBrand();
+        bucketBrand.type(bucket);
+        bucketBrand.type(joyo);
 
         System.out.println("---------------------------------------81----------------------------------------------");
         IronBox ironBox = new IronBox();
@@ -1941,6 +2131,12 @@ public class MainRunner {
         bajaj.color();
         bajaj.price();
 
+        System.out.println();
+        System.out.println("Casting");
+        IronBrand ironBrand = new IronBrand();
+        ironBrand.brandName(ironBox);
+        ironBrand.brandName(bajaj);
+
         System.out.println("---------------------------------------82----------------------------------------------");
         Metal metal = new Metal();
         metal.buy();
@@ -1964,6 +2160,13 @@ public class MainRunner {
         gold.color();
         gold.sell();
         gold.price();
+
+        System.out.println();
+        System.out.println("Casting");
+        RoseGold roseGold = new RoseGold();
+        roseGold.buyGold(gold);
+        roseGold.buyGold(metal);
+
 
         System.out.println("---------------------------------------83----------------------------------------------");
         Ornament ornament = new Ornament();
@@ -1989,6 +2192,12 @@ public class MainRunner {
         bracelet.color();
         bracelet.price();
 
+        System.out.println();
+        System.out.println("Casting");
+        OrnamentMaterial ornamentMaterial = new OrnamentMaterial();
+        ornamentMaterial.type(ornament);
+        ornamentMaterial.type(bracelet);
+
         System.out.println("---------------------------------------84----------------------------------------------");
         Paste paste = new Paste();
         paste.apply();
@@ -2012,6 +2221,12 @@ public class MainRunner {
         colgate.color();
         colgate.sell();
         colgate.price();
+
+        System.out.println();
+        System.out.println("Casting");
+        PasteBrand pasteBrand = new PasteBrand();
+        pasteBrand.brand(paste);
+        pasteBrand.brand(colgate);
 
         System.out.println("---------------------------------------85----------------------------------------------");
         FaceWash faceWash = new FaceWash();

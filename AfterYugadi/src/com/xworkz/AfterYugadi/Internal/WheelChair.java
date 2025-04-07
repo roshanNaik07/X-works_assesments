@@ -28,4 +28,8 @@ public class WheelChair extends Chair{
     public void breakChair(){
         System.out.println("Running breakChair in WheelChair");
     }
+
+    public void move(){
+        System.out.println("running move in WheelChair");
+    }
 }

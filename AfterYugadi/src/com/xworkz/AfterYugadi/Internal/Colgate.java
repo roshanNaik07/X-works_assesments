@@ -30,4 +30,8 @@ public class Colgate extends Paste{
     public void price(){
         System.out.println("Running price in Colgate");
     }
+
+    public void manufacture(){
+        System.out.println("Running manufacture in colgate");
+    }
 }

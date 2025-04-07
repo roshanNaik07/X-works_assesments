@@ -30,4 +30,8 @@ public class Nataraj extends Eraser{
     public void price(){
         System.out.println("Running  price in Nataraj");
     }
+
+    public void brand(){
+        System.out.println("Running brand in Nataraj");
+    }
 }

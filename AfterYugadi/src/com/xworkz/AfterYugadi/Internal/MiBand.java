@@ -29,4 +29,8 @@ public class MiBand extends FitnessBand{
     public void price(){
         System.out.println("Running price in MiBand");
     }
+
+    public void wear(){
+        System.out.println("Running wear in MiBand");
+    }
 }

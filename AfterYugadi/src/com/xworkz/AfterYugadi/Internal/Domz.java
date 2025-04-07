@@ -30,4 +30,8 @@ public class Domz extends Pencil{
     public void price(){
         System.out.println("Running  price in Domz");
     }
+
+    public void type(){
+        System.out.println("Running type in Domz");
+    }
 }

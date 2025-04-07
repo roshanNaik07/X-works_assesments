@@ -30,4 +30,8 @@ public class Silicon extends BackCover{
     public void remove(){
         System.out.println("Running remove in Silicon");
     }
+
+    public void twist(){
+        System.out.println("Running twist in Silicon");
+    }
 }

@@ -30,4 +30,8 @@ public class Apsara extends Rular{
     public void price(){
         System.out.println("Running  price in Apsara");
     }
+
+    public void material(){
+        System.out.println("Running material in Apsara");
+    }
 }

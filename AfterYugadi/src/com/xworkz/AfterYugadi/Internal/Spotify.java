@@ -30,4 +30,8 @@ public class Spotify extends Song{
     public void delete(){
         System.out.println("Running delete in Spotify");
     }
+
+    public void install(){
+        System.out.println("Running install in Spotify");
+    }
 }

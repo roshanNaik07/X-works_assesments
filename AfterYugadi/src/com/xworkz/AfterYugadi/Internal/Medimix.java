@@ -31,4 +31,7 @@ public class Medimix extends Soap {
         System.out.println("Running price in Medimix");
     }
 
+    public void brand(){
+        System.out.println("Running brand in Medimix");
+    }
 }

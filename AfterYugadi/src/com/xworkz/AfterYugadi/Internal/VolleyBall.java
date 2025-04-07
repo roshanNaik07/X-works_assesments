@@ -30,4 +30,8 @@ public class VolleyBall extends Game{
     public void timing(){
         System.out.println("Running timing in VolleyBall");
     }
+
+    public void bounce(){
+        System.out.println("Running bounce in VolleyBall");
+    }
 }

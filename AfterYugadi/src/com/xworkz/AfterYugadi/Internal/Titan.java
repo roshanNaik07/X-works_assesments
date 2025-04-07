@@ -30,4 +30,8 @@ public class Titan extends Watch{
     public void price(){
         System.out.println("Running price in Titan");
     }
+
+    public void belt(){
+        System.out.println("Running belt in Watch");
+    }
 }

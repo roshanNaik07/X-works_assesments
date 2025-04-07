@@ -30,4 +30,8 @@ public class ClinicPlus extends Shampoo{
     public void price(){
         System.out.println("Running price in ClinicPlus");
     }
+
+    public void brand(){
+        System.out.println("Running brand in ClinicPlus");
+    }
 }

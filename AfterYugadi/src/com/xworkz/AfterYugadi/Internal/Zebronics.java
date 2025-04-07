@@ -29,4 +29,8 @@ public class Zebronics extends KeyBoard{
     public void price(){
         System.out.println("Running capacity in Zebronics");
     }
+
+    public void material(){
+        System.out.println("Running material in Zebronics");
+    }
 }

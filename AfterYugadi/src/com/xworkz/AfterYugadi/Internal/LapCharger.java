@@ -30,4 +30,8 @@ public class LapCharger extends Charger{
     public void capacity(){
         System.out.println("Running capacity in LapCharger");
     }
+
+    public void length(){
+        System.out.println("Running length in LapCharger");
+    }
 }

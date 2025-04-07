@@ -30,4 +30,8 @@ public class FibreCastle extends ColorPencil{
     public void price(){
         System.out.println("Running  price in FibreCastle");
     }
+
+    public void manufacture(){
+        System.out.println("Running manufacture in FibreCastle");
+    }
 }

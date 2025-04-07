@@ -30,4 +30,8 @@ public class Pop extends Singer{
     public void perform(){
         System.out.println("Running perform in Pop");
     }
+
+    public void culture(){
+        System.out.println("Running culture in Pop");
+    }
 }

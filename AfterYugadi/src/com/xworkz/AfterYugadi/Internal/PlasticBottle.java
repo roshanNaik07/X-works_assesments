@@ -29,4 +29,8 @@ public class PlasticBottle extends Bottle{
     public void closeBottle(){
         System.out.println("Running closeBottle in PlasticBottle");
     }
+
+    public void crush(){
+        System.out.println("Running crush in PlasticBottle");
+    }
 }

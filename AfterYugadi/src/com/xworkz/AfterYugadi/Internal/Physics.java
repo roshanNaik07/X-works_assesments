@@ -30,4 +30,8 @@ public class Physics extends Book{
     public void price(){
         System.out.println("Running price in Physics");
     }
+
+    public void takeClass(){
+        System.out.println("Running takeClass in Book");
+    }
 }

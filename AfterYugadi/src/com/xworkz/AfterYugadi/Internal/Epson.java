@@ -29,4 +29,8 @@ public class Epson extends Projector{
     public void price(){
         System.out.println("Running price in Epson");
     }
+
+    public void version(){
+        System.out.println("Running version in Epson");
+    }
 }

@@ -30,4 +30,8 @@ public class Usha extends Fan{
     public void price(){
         System.out.println("Running capacity in fan");
     }
+
+    public void warrenty(){
+        System.out.println("Running warrenty in Usha");
+    }
 }

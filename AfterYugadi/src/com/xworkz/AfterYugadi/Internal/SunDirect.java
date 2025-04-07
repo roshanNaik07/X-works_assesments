@@ -30,4 +30,8 @@ public class SunDirect extends Remote{
     public void breakRemote(){
         System.out.println("Running breakRemote in SunDirect");
     }
+
+    public void price(){
+        System.out.println("Running price in SunDirect");
+    }
 }

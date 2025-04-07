@@ -30,4 +30,8 @@ public class Sandisk extends Pendrive{
     public void upload(){
         System.out.println("Running upload in Sandisk");
     }
+
+    public void memory(){
+        System.out.println("Running memory in Sandisk");
+    }
 }

@@ -30,4 +30,8 @@ public class Nikon extends Camera{
     public void lens(){
         System.out.println("Running capacity in Nikon");
     }
+
+    public void price(){
+        System.out.println("Running price in Nikon");
+    }
 }
