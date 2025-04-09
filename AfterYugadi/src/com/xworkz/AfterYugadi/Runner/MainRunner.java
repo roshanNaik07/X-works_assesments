@@ -2252,6 +2252,12 @@ public class MainRunner {
         garnier.price();
         garnier.color();
 
+        System.out.println();
+        System.out.println("Casting");
+        FaceWashBrand faceWashBrand = new FaceWashBrand();
+        faceWashBrand.skinCare(faceWash);
+        faceWashBrand.skinCare(garnier);
+
         System.out.println("---------------------------------------86----------------------------------------------");
         Medicine medicine = new Medicine();
         medicine.apply();
@@ -2275,6 +2281,12 @@ public class MainRunner {
         dolo650.buy();
         dolo650.sell();
         dolo650.price();
+
+        System.out.println();
+        System.out.println("Casting");
+        TabletType tabletType = new TabletType();
+        tabletType.type(medicine);
+        tabletType.type(dolo650);
 
         System.out.println("---------------------------------------87----------------------------------------------");
         BodyWash bodyWash = new BodyWash();
@@ -2300,6 +2312,12 @@ public class MainRunner {
         pears.price();
         pears.color();
 
+        System.out.println();
+        System.out.println("Casting");
+        BodywashBrand bodywashBrand = new BodywashBrand();
+        bodywashBrand.type(bodyWash);
+        bodywashBrand.type(pears);
+
         System.out.println("---------------------------------------88----------------------------------------------");
         Oil oil = new Oil();
         oil.quality();
@@ -2324,6 +2342,12 @@ public class MainRunner {
         pamoil.sell();
         pamoil.price();
 
+        System.out.println();
+        System.out.println("Casting");
+        OilBrand oilBrand = new OilBrand();
+        oilBrand.type(oil);
+        oilBrand.type(pamoil);
+
         System.out.println("---------------------------------------89----------------------------------------------");
         SoftDrink softDrink = new SoftDrink();
         softDrink.buy();
@@ -2347,6 +2371,12 @@ public class MainRunner {
         pepsi.price();
         pepsi.sell();
         pepsi.price();
+
+        System.out.println();
+        System.out.println("Casting");
+        SoftDrinkBrand softDrinkBrand = new SoftDrinkBrand();
+        softDrinkBrand.flovour(softDrink);
+        softDrinkBrand.flovour(pepsi);
 
         System.out.println("---------------------------------------90----------------------------------------------");
         Snacks snacks = new Snacks();

@@ -30,4 +30,8 @@ public class Garnier extends FaceWash{
     public void price(){
         System.out.println("Running price in Garnier");
     }
+
+    public void type(){
+        System.out.println("Running type in Garnier");
+    }
 }

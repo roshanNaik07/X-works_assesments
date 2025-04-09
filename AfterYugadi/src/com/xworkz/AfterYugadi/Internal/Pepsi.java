@@ -30,4 +30,8 @@ public class Pepsi extends SoftDrink{
     public void price(){
         System.out.println("Running price in Pepsi");
     }
+
+    public void brand(){
+        System.out.println("Running brand in Pepsi");
+    }
 }

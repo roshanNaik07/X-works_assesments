@@ -30,4 +30,8 @@ public class Dolo650 extends Medicine{
     public void price(){
         System.out.println("Running price in Dolo650");
     }
+
+    public void manufacture(){
+        System.out.println("Running manufacture in dolo650");
+    }
 }

@@ -30,4 +30,8 @@ public class Pamoil extends Oil{
     public void price(){
         System.out.println("Running price in Pamoil");
     }
+
+    public void cook(){
+        System.out.println("Running cook in Pamoil");
+    }
 }

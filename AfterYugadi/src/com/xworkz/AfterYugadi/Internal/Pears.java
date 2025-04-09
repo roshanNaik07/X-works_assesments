@@ -30,4 +30,8 @@ public class Pears extends BodyWash{
     public void price(){
         System.out.println("Running price in Pears");
     }
+
+    public void brand(){
+        System.out.println("Running brand in Pears");
+    }
 }
