@@ -7,21 +7,21 @@ public class Shampoo {
     }
 
     public void apply(){
-        System.out.println("Running plugIn in apply");
+        System.out.println("Running apply in Shampoo");
     }
 
     public void buy(){
-        System.out.println("Running remove in buy");
+        System.out.println("Running buy in Shampoo");
     }
 
     public void sell(){
-        System.out.println("Running color in sell");
+        System.out.println("Running sell in Shampoo");
     }
 
     public void wash(){
-        System.out.println("Running price in wash");
+        System.out.println("Running wash in Shampoo");
     }
     public void price(){
-        System.out.println("Running capacity in price");
+        System.out.println("Running price in Shampoo");
     }
 }

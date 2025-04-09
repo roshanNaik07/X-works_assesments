@@ -7,21 +7,21 @@ public class Rular {
     }
 
     public void buy(){
-        System.out.println("Running plugIn in buy");
+        System.out.println("Running  buy in Rular");
     }
 
     public void length(){
-        System.out.println("Running remove in length");
+        System.out.println("Running  length in Rular");
     }
 
     public void color(){
-        System.out.println("Running color in color");
+        System.out.println("Running  color in Rular");
     }
 
     public void use(){
-        System.out.println("Running price in use");
+        System.out.println("Running  use in Rular");
     }
     public void price(){
-        System.out.println("Running capacity in price");
+        System.out.println("Running  price in Rular");
     }
 }

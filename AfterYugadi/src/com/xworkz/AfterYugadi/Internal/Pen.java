@@ -7,21 +7,21 @@ public class Pen {
     }
 
     public void buy(){
-        System.out.println("Running plugIn in buy");
+        System.out.println("Running  buy in Pen");
     }
 
     public void refill(){
-        System.out.println("Running remove in refill");
+        System.out.println("Running  refill in Pen");
     }
 
     public void color(){
-        System.out.println("Running color in color");
+        System.out.println("Running  color in Pen");
     }
 
     public void use(){
-        System.out.println("Running price in use");
+        System.out.println("Running  use in Pen");
     }
     public void price(){
-        System.out.println("Running capacity in price");
+        System.out.println("Running  price in Pen");
     }
 }
