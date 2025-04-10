@@ -14,4 +14,9 @@ public class Hospital {
     public String toString() {
         return "name : "+name+" location : "+location+" startTime : "+startTime;
     }
+
+    @Override
+    public int hashCode() {
+        return 158;
+    }
 }

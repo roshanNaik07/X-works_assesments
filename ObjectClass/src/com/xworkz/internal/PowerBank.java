@@ -15,4 +15,9 @@ public class PowerBank {
     public String toString(){
         return "Brand : "+brand+" Capacity : "+Capacity+" price : "+price;
     }
+
+    @Override
+    public int hashCode() {
+        return 180;
+    }
 }

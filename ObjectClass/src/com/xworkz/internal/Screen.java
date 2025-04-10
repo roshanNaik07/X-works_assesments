@@ -15,4 +15,9 @@ public class Screen {
     public String toString(){
         return "Brand : "+brand+" size : "+size+" price : "+price;
     }
+
+    @Override
+    public int hashCode() {
+        return 115;
+    }
 }

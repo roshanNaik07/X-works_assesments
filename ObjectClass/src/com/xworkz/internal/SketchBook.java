@@ -16,4 +16,8 @@ public class SketchBook {
         return "Brand: " + brand + ", Pages: " + pages + ", Price: " + price;
     }
 
+    @Override
+    public int hashCode() {
+        return 190;
+    }
 }

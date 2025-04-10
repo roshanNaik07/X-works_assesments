@@ -14,4 +14,9 @@ public class Soap {
     public String toString() {
         return "brand : "+brand+" Aroma : "+Aroma+" price : "+price;
     }
+
+    @Override
+    public int hashCode() {
+        return 135;
+    }
 }

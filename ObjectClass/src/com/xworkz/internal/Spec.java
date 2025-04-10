@@ -14,4 +14,9 @@ public class Spec {
     public String toString() {
         return "company : "+company+" color : "+color+" price : "+price;
     }
+
+    @Override
+    public int hashCode() {
+        return 195;
+    }
 }

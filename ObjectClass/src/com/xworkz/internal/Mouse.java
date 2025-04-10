@@ -15,4 +15,9 @@ public class Mouse {
     public String toString() {
         return "Brand: " + brand + ", Type: " + type + ", Price: " + price;
     }
+
+    @Override
+    public int hashCode() {
+        return 170;
+    }
 }

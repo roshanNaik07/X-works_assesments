@@ -15,4 +15,9 @@ public class TabletStand {
     public String toString() {
         return "Material : " + material + " Color : " + color + " Price : " + price;
     }
+
+    @Override
+    public int hashCode() {
+        return 202;
+    }
 }

@@ -16,4 +16,8 @@ public class Frame {
         return "Size: " + size + ", Material: " + material + ", Price: " + price;
     }
 
+    @Override
+    public int hashCode() {
+        return 156;
+    }
 }

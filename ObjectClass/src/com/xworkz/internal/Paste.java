@@ -14,4 +14,9 @@ public class Paste {
     public String toString() {
         return "brand : "+brand+" ingredient : "+ingredient+" price : "+price;
     }
+
+    @Override
+    public int hashCode() {
+        return 136;
+    }
 }

@@ -16,4 +16,8 @@ public class FanStand {
         return "Brand: " + brand + ", Height: " + height + "cm, Price: " + price;
     }
 
+    @Override
+    public int hashCode() {
+        return 153;
+    }
 }

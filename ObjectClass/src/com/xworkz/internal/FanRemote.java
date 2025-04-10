@@ -15,4 +15,9 @@ public class FanRemote {
     public String toString() {
         return "Brand: " + brand + ", Range: " + range + "m, Price: " + price;
     }
+
+    @Override
+    public int hashCode() {
+        return 152;
+    }
 }

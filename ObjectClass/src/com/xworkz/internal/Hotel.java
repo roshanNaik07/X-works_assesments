@@ -14,4 +14,9 @@ public class Hotel {
     public String toString() {
         return "name : "+name+" location : "+location+" startTime : "+startTime;
     }
+
+    @Override
+    public int hashCode() {
+        return 159;
+    }
 }

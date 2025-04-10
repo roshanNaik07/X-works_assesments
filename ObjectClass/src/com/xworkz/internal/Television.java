@@ -15,4 +15,9 @@ public class Television {
     public String toString() {
         return "Brand: " + brand + ", Size: " + size + " inches, Price: " + price;
     }
+
+    @Override
+    public int hashCode() {
+        return 203;
+    }
 }

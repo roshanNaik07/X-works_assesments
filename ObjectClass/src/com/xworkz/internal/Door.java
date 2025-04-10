@@ -14,4 +14,9 @@ public class Door {
     public String toString() {
         return "Material : "+Material+" color : "+color+" price : "+price;
     }
+
+    @Override
+    public int hashCode() {
+        return 149;
+    }
 }

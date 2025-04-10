@@ -15,4 +15,9 @@ public class PenDrive {
     public String toString() {
         return "Brand: " + brand + ", Storage: " + storage + "GB, Price: " + price;
     }
+
+    @Override
+    public int hashCode() {
+        return 176;
+    }
 }

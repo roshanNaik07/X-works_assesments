@@ -14,4 +14,9 @@ public class SocialMedia {
     public String toString() {
         return "appName : "+appName+" size : "+size+" price : "+price;
     }
+
+    @Override
+    public int hashCode() {
+        return 192;
+    }
 }

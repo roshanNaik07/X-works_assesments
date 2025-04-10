@@ -14,4 +14,9 @@ public class Bucket {
     public String toString() {
         return "brand : "+brand+" color : "+color+" price : "+price;
     }
+
+    @Override
+    public int hashCode() {
+        return 133;
+    }
 }

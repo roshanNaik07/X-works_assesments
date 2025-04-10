@@ -15,4 +15,9 @@ public class Inverter {
     public String toString() {
         return "Brand : " + brand + " Backup : " + backupHours + " hrs Price : " + price;
     }
+
+    @Override
+    public int hashCode() {
+        return 161;
+    }
 }

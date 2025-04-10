@@ -15,4 +15,9 @@ public class Lamp {
     public String toString() {
         return "Type: " + type + ", Color: " + color + ", Price: " + price;
     }
+
+    @Override
+    public int hashCode() {
+        return 164;
+    }
 }

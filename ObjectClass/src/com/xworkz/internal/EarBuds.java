@@ -15,4 +15,9 @@ public class EarBuds {
     public String toString() {
         return "brand : "+brand+" color : "+color+" price : "+price;
     }
+
+    @Override
+    public int hashCode() {
+        return 150;
+    }
 }

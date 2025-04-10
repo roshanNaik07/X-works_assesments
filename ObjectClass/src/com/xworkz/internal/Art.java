@@ -14,4 +14,9 @@ public class Art {
     public String toString() {
         return "Name : "+Name+" Artist : "+Artist+" price : "+price;
     }
+
+    @Override
+    public int hashCode() {
+        return 138;
+    }
 }

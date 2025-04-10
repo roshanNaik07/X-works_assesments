@@ -15,4 +15,9 @@ public class Globe {
     public String toString() {
         return "Size: " + size + ", Color: " + color + ", Price: " + price;
     }
+
+    @Override
+    public int hashCode() {
+        return 157;
+    }
 }

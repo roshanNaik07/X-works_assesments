@@ -14,4 +14,9 @@ public class Bike {
     public String toString() {
         return "company : "+company+" cc : "+cc+" price : "+price;
     }
+
+    @Override
+    public int hashCode() {
+        return 123;
+    }
 }

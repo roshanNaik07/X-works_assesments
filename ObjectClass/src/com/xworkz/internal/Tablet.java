@@ -15,4 +15,9 @@ public class Tablet {
     public String toString() {
         return "Brand : " + brand + " RAM : " + ram + "GB Price : " + price;
     }
+
+    @Override
+    public int hashCode() {
+        return 201;
+    }
 }

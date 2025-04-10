@@ -1,5 +1,7 @@
 package com.xworkz.internal;
 
+import java.util.Objects;
+
 public class Charger {
     private String brand;
     private int length;
@@ -14,5 +16,10 @@ public class Charger {
     @Override
     public String toString(){
         return "Brand : "+brand+" length : "+length+" price : "+price;
+    }
+
+    @Override
+    public int hashCode() {
+        return 113;
     }
 }

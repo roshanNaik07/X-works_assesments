@@ -15,4 +15,9 @@ public class Mic {
     public String toString() {
         return "Type : " + type + " Brand : " + brand + " Price : " + price;
     }
+
+    @Override
+    public int hashCode() {
+        return 165;
+    }
 }

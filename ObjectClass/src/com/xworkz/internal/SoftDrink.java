@@ -14,4 +14,9 @@ public class SoftDrink {
     public String toString() {
         return "brand : "+brand+" flavour : "+flavour+" price : "+price;
     }
+
+    @Override
+    public int hashCode() {
+        return 193;
+    }
 }

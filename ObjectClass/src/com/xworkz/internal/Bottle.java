@@ -15,4 +15,9 @@ public class Bottle {
     public String toString() {
         return "Capacity : "+capacity+"color : "+color+" price : "+price;
     }
+
+    @Override
+    public int hashCode() {
+        return 116;
+    }
 }

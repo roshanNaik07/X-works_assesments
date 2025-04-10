@@ -14,4 +14,9 @@ public class Burger {
     public String toString() {
         return "name : "+name+" ingredient : "+ingredient+" price : "+price;
     }
+
+    @Override
+    public int hashCode() {
+        return 144;
+    }
 }

@@ -14,4 +14,9 @@ public class AC {
     public String toString() {
         return "brand : "+brand+" rating : "+rating+" price : "+price;
     }
+
+    @Override
+    public int hashCode() {
+        return 137;
+    }
 }

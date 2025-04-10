@@ -14,4 +14,9 @@ public class Sunglass {
     public String toString() {
         return "company : "+company+" type : "+type+" price : "+price;
     }
+
+    @Override
+    public int hashCode() {
+        return 198;
+    }
 }

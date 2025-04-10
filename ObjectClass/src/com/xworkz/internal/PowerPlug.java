@@ -15,4 +15,9 @@ public class PowerPlug {
     public String toString() {
         return "Type: " + type + ", Voltage: " + voltage + "V, Price: " + price;
     }
+
+    @Override
+    public int hashCode() {
+        return 181;
+    }
 }

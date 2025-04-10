@@ -14,4 +14,9 @@ public class Water {
     public String toString() {
         return "brand : "+brand+" quantity : "+quantity+" price : "+price;
     }
+
+    @Override
+    public int hashCode() {
+        return 209;
+    }
 }

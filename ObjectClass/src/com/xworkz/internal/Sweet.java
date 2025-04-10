@@ -14,4 +14,9 @@ public class Sweet {
     public String toString() {
         return "name : "+name+" ingredient : "+ingredient+" price : "+price;
     }
+
+    @Override
+    public int hashCode() {
+        return 198;
+    }
 }

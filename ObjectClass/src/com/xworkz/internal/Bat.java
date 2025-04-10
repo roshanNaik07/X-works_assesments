@@ -14,4 +14,9 @@ public class Bat {
     public String toString() {
         return "brand : "+brand+" Range : "+weight+" price : "+price;
     }
+
+    @Override
+    public int hashCode() {
+        return 141;
+    }
 }

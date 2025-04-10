@@ -1,5 +1,7 @@
 package com.xworkz.internal;
 
+import java.util.Objects;
+
 public class Phone {
     private String brand;
     private String category;
@@ -14,5 +16,10 @@ public class Phone {
     @Override
     public String toString(){
         return "Brand : "+brand+" category : "+category+" price : "+price;
+    }
+
+    @Override
+    public int hashCode() {
+        return 114;
     }
 }

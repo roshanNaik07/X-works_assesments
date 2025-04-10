@@ -14,4 +14,9 @@ public class Belt {
     public String toString() {
         return "Brand : "+Brand+"material : "+material+" price : "+price;
     }
+
+    @Override
+    public int hashCode() {
+        return 118;
+    }
 }

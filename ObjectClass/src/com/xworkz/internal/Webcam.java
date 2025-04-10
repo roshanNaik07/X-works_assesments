@@ -15,4 +15,9 @@ public class Webcam {
     public String toString() {
         return "Brand : " + brand + " Resolution : " + resolution + " Price : " + price;
     }
+
+    @Override
+    public int hashCode() {
+        return 210;
+    }
 }

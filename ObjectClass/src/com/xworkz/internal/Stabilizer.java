@@ -15,4 +15,9 @@ public class Stabilizer {
     public String toString() {
         return "Brand : " + brand + " Voltage : " + voltage + "V Price : " + price;
     }
+
+    @Override
+    public int hashCode() {
+        return 196;
+    }
 }

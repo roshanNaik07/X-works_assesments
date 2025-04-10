@@ -14,4 +14,9 @@ public class Music {
     public String toString() {
         return "appName : "+appName+" subscription : "+subscription+" mb : "+mb;
     }
+
+    @Override
+    public int hashCode() {
+        return 132;
+    }
 }

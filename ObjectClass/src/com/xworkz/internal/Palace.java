@@ -14,4 +14,9 @@ public class Palace {
     public String toString() {
         return "name : "+name+" location : "+location+" entryFee : "+entryFee;
     }
+
+    @Override
+    public int hashCode() {
+        return 174;
+    }
 }

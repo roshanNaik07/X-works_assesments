@@ -14,4 +14,9 @@ public class NewsPaper {
     public String toString() {
         return "name : "+name+" location : "+location+" price : "+price;
     }
+
+    @Override
+    public int hashCode() {
+        return 172;
+    }
 }

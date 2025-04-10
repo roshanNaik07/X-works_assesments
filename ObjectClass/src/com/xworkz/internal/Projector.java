@@ -15,4 +15,9 @@ public class Projector {
     public String toString() {
         return "Brand : " + brand + " Resolution : " + resolution + " Price : " + price;
     }
+
+    @Override
+    public int hashCode() {
+        return 182;
+    }
 }

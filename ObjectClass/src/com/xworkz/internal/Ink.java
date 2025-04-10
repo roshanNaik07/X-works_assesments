@@ -15,4 +15,9 @@ public class Ink {
     public String toString() {
         return "Color: " + color + ", Brand: " + brand + ", Price: " + price;
     }
+
+    @Override
+    public int hashCode() {
+        return 160;
+    }
 }

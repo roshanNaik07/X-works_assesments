@@ -14,4 +14,9 @@ public class Jug {
     public String toString() {
         return "brand : "+brand+" material : "+material+" price : "+price;
     }
+
+    @Override
+    public int hashCode() {
+        return 162;
+    }
 }

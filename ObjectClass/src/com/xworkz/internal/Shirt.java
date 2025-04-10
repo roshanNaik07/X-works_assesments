@@ -15,4 +15,9 @@ public class Shirt {
     public String toString() {
         return "Brand : "+Brand+"color : "+color+" price : "+price;
     }
+
+    @Override
+    public int hashCode() {
+        return 117;
+    }
 }

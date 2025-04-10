@@ -14,4 +14,9 @@ public class DeliveryApp {
     public String toString() {
         return "appName : "+appName+" deliverTime : "+deliverTime+" deliveryCharge : "+deliveryCharge;
     }
+
+    @Override
+    public int hashCode() {
+        return 131;
+    }
 }

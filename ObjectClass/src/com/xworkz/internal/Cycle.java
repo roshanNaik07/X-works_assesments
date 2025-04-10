@@ -14,4 +14,9 @@ public class Cycle {
     public String toString() {
         return "company : "+company+" model : "+model+" price : "+price;
     }
+
+    @Override
+    public int hashCode() {
+        return 148;
+    }
 }

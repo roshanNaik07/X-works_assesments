@@ -14,4 +14,9 @@ public class Wifi {
     public String toString() {
         return "brand : "+brand+" Range : "+Range+" price : "+price;
     }
+
+    @Override
+    public int hashCode() {
+        return 211;
+    }
 }

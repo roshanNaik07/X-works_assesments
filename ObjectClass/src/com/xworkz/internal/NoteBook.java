@@ -14,4 +14,9 @@ public class NoteBook {
     public String toString() {
         return "brand : "+brand+"noOfPages : "+noOfPages+" price : "+price;
     }
+
+    @Override
+    public int hashCode() {
+        return 120;
+    }
 }
