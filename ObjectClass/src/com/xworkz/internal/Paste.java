@@ -19,4 +19,18 @@ public class Paste {
     public int hashCode() {
         return 136;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof Paste){
+                Paste paste = this;
+                Paste paste1 =(Paste) obj;
+                if (paste.brand.equals(paste1.brand)){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

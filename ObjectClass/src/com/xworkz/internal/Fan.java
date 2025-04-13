@@ -19,4 +19,18 @@ public class Fan {
     public int hashCode() {
         return 121;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof Fan){
+                Fan fan = this;
+                Fan fan1 =(Fan) obj;
+                if (fan.brand.equals(fan1.brand)){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

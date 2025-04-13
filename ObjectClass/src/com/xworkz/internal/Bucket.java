@@ -19,4 +19,18 @@ public class Bucket {
     public int hashCode() {
         return 133;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof Bucket){
+                Bucket bucket = this;
+                Bucket bucket1 =(Bucket) obj;
+                if (bucket.color.equals(bucket1.color)){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

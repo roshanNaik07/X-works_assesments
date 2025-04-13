@@ -19,4 +19,18 @@ public class Pen {
     public int hashCode() {
         return 125;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof Pen){
+                Pen pen = this;
+                Pen pen1 =(Pen) obj;
+                if (pen.ink.equals(pen1.ink)){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

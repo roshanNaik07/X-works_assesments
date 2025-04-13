@@ -19,4 +19,18 @@ public class Soap {
     public int hashCode() {
         return 135;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof Soap){
+                Soap soap = this;
+                Soap soap1 =(Soap) obj;
+                if (soap.Aroma.equals(soap1.Aroma)){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

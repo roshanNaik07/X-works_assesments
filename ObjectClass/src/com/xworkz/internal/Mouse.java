@@ -20,4 +20,18 @@ public class Mouse {
     public int hashCode() {
         return 170;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("obj is not null");
+            if (obj instanceof Mouse) {
+                Mouse mouse = this;
+                Mouse mouse1 = (Mouse) obj;
+                if (mouse.brand.equals(mouse1.brand) && mouse.type.equals(mouse1.type) && mouse.price == mouse1.price) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

@@ -19,4 +19,18 @@ public class Electrolite {
     public int hashCode() {
         return 151;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof Electrolite){
+                Electrolite electrolite = this;
+                Electrolite electrolite1 =(Electrolite) obj;
+                if (electrolite.brand.equals(electrolite1.brand) && electrolite.type.equals(electrolite1.type)){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

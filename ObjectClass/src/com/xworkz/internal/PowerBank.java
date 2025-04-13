@@ -20,4 +20,18 @@ public class PowerBank {
     public int hashCode() {
         return 180;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof PowerBank){
+                PowerBank powerBank = this;
+                PowerBank powerBank1 =(PowerBank) obj;
+                if (powerBank.brand.equals(powerBank1.brand) && powerBank.Capacity==powerBank1.Capacity && powerBank.price==powerBank1.price){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

@@ -19,4 +19,18 @@ public class FitnessBand {
     public int hashCode() {
         return 154;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof FitnessBand){
+                FitnessBand fitnessBand = this;
+                FitnessBand fitnessBand1 =(FitnessBand) obj;
+                if (fitnessBand.brand.equals(fitnessBand1.brand) && fitnessBand.type.equals(fitnessBand1.type)){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

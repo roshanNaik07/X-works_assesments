@@ -19,4 +19,18 @@ public class Sharpner {
     public int hashCode() {
         return 129;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof Sharpner){
+                Sharpner sharpner = this;
+                Sharpner sharpner1 =(Sharpner) obj;
+                if (sharpner.brand.equals(sharpner1.brand)){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

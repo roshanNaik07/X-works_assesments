@@ -19,4 +19,19 @@ public class NoteBook {
     public int hashCode() {
         return 120;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof NoteBook){
+                NoteBook noteBook = this;
+                NoteBook noteBook1 =(NoteBook) obj;
+                if (noteBook.brand.equals(noteBook1.brand)){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

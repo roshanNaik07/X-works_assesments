@@ -19,4 +19,18 @@ public class DeliveryApp {
     public int hashCode() {
         return 131;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof DeliveryApp){
+                DeliveryApp deliveryApp = this;
+                DeliveryApp deliveryApp1 =(DeliveryApp) obj;
+                if (deliveryApp.appName.equals(deliveryApp1.appName)){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

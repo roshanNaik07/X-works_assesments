@@ -20,4 +20,18 @@ public class Router {
     public int hashCode() {
         return 185;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof Router){
+                Router router = this;
+                Router router1 =(Router) obj;
+                if (router.brand.equals(router1.brand) && router.speed==router1.speed && router.price==router1.price){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

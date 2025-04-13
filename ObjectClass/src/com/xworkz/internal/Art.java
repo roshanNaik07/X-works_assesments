@@ -19,4 +19,18 @@ public class Art {
     public int hashCode() {
         return 138;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof Art){
+                Art art = this;
+                Art art1 =(Art) obj;
+                if (art.Name.equals(art1.Name) && art.Artist.equals(art1.Artist)){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

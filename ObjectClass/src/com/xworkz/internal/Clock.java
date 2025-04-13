@@ -20,4 +20,18 @@ public class Clock {
     public int hashCode() {
         return 146;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof Clock){
+                Clock clock = this;
+                Clock clock1 =(Clock) obj;
+                if (clock.brand.equals(clock1.brand) && clock.type.equals(clock1.type) && clock.price==clock1.price){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

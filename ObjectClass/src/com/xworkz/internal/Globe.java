@@ -20,4 +20,18 @@ public class Globe {
     public int hashCode() {
         return 157;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof Globe){
+                Globe globe = this;
+                Globe globe1 =(Globe) obj;
+                if (globe.size.equals(globe1.size) && globe.color.equals(globe1.color) && globe.price==globe1.price){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

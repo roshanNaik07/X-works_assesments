@@ -19,4 +19,18 @@ public class Sweet {
     public int hashCode() {
         return 198;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof Sweet){
+                Sweet sweet = this;
+                Sweet sweet1 =(Sweet) obj;
+                if (sweet.name.equals(sweet1.name) && sweet.ingredient.equals(sweet1.ingredient)){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

@@ -22,4 +22,17 @@ public class Phone {
     public int hashCode() {
         return 114;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof Phone){
+                Phone phone = this;
+                Phone phone1= (Phone) obj;
+                if (phone.category.equals(phone1.category));
+            }
+        }
+        return false;
+    }
 }

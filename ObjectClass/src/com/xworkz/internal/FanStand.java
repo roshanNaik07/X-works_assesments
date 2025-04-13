@@ -20,4 +20,18 @@ public class FanStand {
     public int hashCode() {
         return 153;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof FanStand){
+                FanStand fanStand = this;
+                FanStand fanStand1 =(FanStand) obj;
+                if (fanStand.brand.equals(fanStand1.brand) && fanStand.height==fanStand1.height && fanStand.price==fanStand1.price){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

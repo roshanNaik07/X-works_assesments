@@ -19,4 +19,18 @@ public class IronBox {
     public int hashCode() {
         return 122;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof IronBox){
+                IronBox ironBox = this;
+                IronBox ironBox1 =(IronBox) obj;
+                if (ironBox.brand.equals(ironBox1.brand)){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

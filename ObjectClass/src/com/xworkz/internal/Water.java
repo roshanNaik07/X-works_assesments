@@ -19,4 +19,18 @@ public class Water {
     public int hashCode() {
         return 209;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof Water){
+                Water water = this;
+                Water water1 =(Water) obj;
+                if (water.brand.equals(water1.brand) && water.price==water1.price){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

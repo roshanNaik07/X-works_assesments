@@ -19,4 +19,19 @@ public class Shoe {
     public int hashCode() {
         return 119;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj!=null){
+            System.out.println("obj is not null");
+            if (obj instanceof Shoe){
+                Shoe shoe = this;
+                Shoe shoe1 = (Shoe) obj;
+                if (shoe.size==shoe1.size){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

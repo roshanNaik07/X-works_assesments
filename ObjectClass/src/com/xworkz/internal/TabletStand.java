@@ -20,4 +20,18 @@ public class TabletStand {
     public int hashCode() {
         return 202;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof TabletStand){
+                TabletStand tableStand = this;
+                TabletStand tableStand1 =(TabletStand) obj;
+                if (tableStand.material.equals(tableStand1.material) && tableStand.color.equals(tableStand1.color) && tableStand.price==tableStand1.price){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

@@ -20,4 +20,18 @@ public class Cup {
     public int hashCode() {
         return 147;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof Cup){
+                Cup cup = this;
+                Cup cup1 =(Cup) obj;
+                if (cup.material.equals(cup1.material) && cup.color.equals(cup1.color) && cup.price==cup1.price){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

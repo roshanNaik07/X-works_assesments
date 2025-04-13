@@ -20,4 +20,18 @@ public class Smartwatch {
     public int hashCode() {
         return 191;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof Smartwatch){
+                Smartwatch smartWatch = this;
+                Smartwatch smartWatch1 =(Smartwatch) obj;
+                if (smartWatch.brand.equals(smartWatch1.brand) && smartWatch.model.equals(smartWatch1.model) && smartWatch.price==smartWatch1.price){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

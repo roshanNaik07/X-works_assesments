@@ -20,4 +20,18 @@ public class Monitor {
     public int hashCode() {
         return 168;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof Monitor){
+                Monitor monitor = this;
+                Monitor monitor1 =(Monitor) obj;
+                if (monitor.brand.equals(monitor1.brand) && monitor.size==monitor1.size && monitor.price==monitor1.price){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

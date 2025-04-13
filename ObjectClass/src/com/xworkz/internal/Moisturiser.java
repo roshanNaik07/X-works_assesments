@@ -19,4 +19,18 @@ public class Moisturiser {
     public int hashCode() {
         return 167;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof Moisturiser){
+                Moisturiser moisturiser = this;
+                Moisturiser moisturiser1 =(Moisturiser) obj;
+                if (moisturiser.brand.equals(moisturiser1.brand) && moisturiser.type.equals(moisturiser1.type)){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

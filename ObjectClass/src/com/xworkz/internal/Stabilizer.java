@@ -20,4 +20,18 @@ public class Stabilizer {
     public int hashCode() {
         return 196;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof Stabilizer){
+                Stabilizer stabilizer = this;
+                Stabilizer stabilizer1 =(Stabilizer) obj;
+                if (stabilizer.brand.equals(stabilizer1.brand) && stabilizer.voltage==stabilizer1.voltage && stabilizer.price==stabilizer1.price){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

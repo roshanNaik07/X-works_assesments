@@ -20,4 +20,18 @@ public class PowerPlug {
     public int hashCode() {
         return 181;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof PowerPlug){
+                PowerPlug powerPlug = this;
+                PowerPlug powerPlug1 =(PowerPlug) obj;
+                if (powerPlug.type.equals(powerPlug1.type) && powerPlug.voltage==powerPlug1.voltage && powerPlug.price==powerPlug1.price){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

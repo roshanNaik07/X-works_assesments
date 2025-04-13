@@ -19,4 +19,18 @@ public class Eraser {
     public int hashCode() {
         return 128;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof Eraser){
+                Eraser eraser = this;
+                Eraser eraser1 =(Eraser) obj;
+                if (eraser.brand.equals(eraser.brand)){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

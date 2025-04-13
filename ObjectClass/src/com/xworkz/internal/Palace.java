@@ -19,4 +19,19 @@ public class Palace {
     public int hashCode() {
         return 174;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof Palace){
+                Palace palace = this;
+                Palace palace1 =(Palace) obj;
+                if (palace.name.equals(palace1.name) && palace.location.equals(palace1.location)){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

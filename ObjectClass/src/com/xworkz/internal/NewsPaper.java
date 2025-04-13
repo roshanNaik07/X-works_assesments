@@ -19,4 +19,18 @@ public class NewsPaper {
     public int hashCode() {
         return 172;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof NewsPaper){
+                NewsPaper newsPaper = this;
+                NewsPaper newsPaper1 =(NewsPaper) obj;
+                if (newsPaper.name.equals(newsPaper1.name) && newsPaper.location.equals(newsPaper1.location)){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

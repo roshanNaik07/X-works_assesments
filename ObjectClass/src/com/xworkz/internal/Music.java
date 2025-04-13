@@ -19,4 +19,18 @@ public class Music {
     public int hashCode() {
         return 132;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof Music){
+                Music music = this;
+                Music music1 =(Music) obj;
+                if (music.appName.equals(music.appName)){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
