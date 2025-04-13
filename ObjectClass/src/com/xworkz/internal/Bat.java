@@ -14,4 +14,23 @@ public class Bat {
     public String toString() {
         return "brand : "+brand+" Range : "+weight+" price : "+price;
     }
+
+    @Override
+    public int hashCode() {
+        return 141;
+    }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof Bat){
+                Bat bat = this;
+                Bat bat1 =(Bat) obj;
+                if (bat.brand.equals(bat1.brand) && bat.weight==bat1.weight){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

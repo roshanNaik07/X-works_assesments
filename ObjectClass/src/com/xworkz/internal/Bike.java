@@ -14,4 +14,23 @@ public class Bike {
     public String toString() {
         return "company : "+company+" cc : "+cc+" price : "+price;
     }
+
+    @Override
+    public int hashCode() {
+        return 123;
+    }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof Bike){
+                Bike bike = this;
+                Bike bike1 =(Bike) obj;
+                if (bike.company.equals(bike1.company)){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

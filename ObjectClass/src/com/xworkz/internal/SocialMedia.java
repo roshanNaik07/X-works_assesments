@@ -14,4 +14,23 @@ public class SocialMedia {
     public String toString() {
         return "appName : "+appName+" size : "+size+" price : "+price;
     }
+
+    @Override
+    public int hashCode() {
+        return 192;
+    }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof SocialMedia){
+                SocialMedia socialMedia = this;
+                SocialMedia socialMedia1 =(SocialMedia) obj;
+                if (socialMedia.appName.equals(socialMedia1.appName) && socialMedia.size.equals(socialMedia1.size)){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

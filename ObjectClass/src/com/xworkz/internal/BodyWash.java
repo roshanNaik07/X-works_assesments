@@ -14,4 +14,23 @@ public class BodyWash {
     public String toString() {
         return "brand : "+brand+" ingredient : "+ingredient+" price : "+price;
     }
+
+    @Override
+    public int hashCode() {
+        return 142;
+    }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof BodyWash){
+                BodyWash bodyWash = this;
+                BodyWash bodyWash1 =(BodyWash) obj;
+                if (bodyWash.brand.equals(bodyWash.brand) && bodyWash.ingredient.equals(bodyWash.ingredient)){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

@@ -14,4 +14,23 @@ public class Pencil {
     public String toString() {
         return "brand : "+brand+" shade : "+shade+" price : "+price;
     }
+
+    @Override
+    public int hashCode() {
+        return 126;
+    }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof Pencil){
+                Pencil pencil = this;
+                Pencil pencil1 =(Pencil) obj;
+                if (pencil.brand.equals(pencil.brand)){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

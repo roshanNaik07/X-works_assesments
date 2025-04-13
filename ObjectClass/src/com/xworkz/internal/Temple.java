@@ -14,4 +14,23 @@ public class Temple {
     public String toString() {
         return "name : "+name+" location : "+location+" managementCount : "+managementCount;
     }
+
+    @Override
+    public int hashCode() {
+        return 204;
+    }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof Temple){
+                Temple temple = this;
+                Temple temple1 =(Temple) obj;
+                if (temple.name.equals(temple1.name) && temple.location.equals(temple1.location)){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

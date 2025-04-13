@@ -14,4 +14,24 @@ public class Belt {
     public String toString() {
         return "Brand : "+Brand+"material : "+material+" price : "+price;
     }
+
+    @Override
+    public int hashCode() {
+        return 118;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj!=null){
+            System.out.println("obj is not null");
+            if (obj instanceof Belt){
+                Belt belt = this;
+                Belt belt1 = (Belt) obj;
+                if (belt.material.equals(belt1.material)){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

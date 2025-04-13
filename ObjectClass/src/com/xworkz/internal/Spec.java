@@ -14,4 +14,23 @@ public class Spec {
     public String toString() {
         return "company : "+company+" color : "+color+" price : "+price;
     }
+
+    @Override
+    public int hashCode() {
+        return 195;
+    }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof Spec){
+                Spec spec = this;
+                Spec spec1 =(Spec) obj;
+                if (spec.company.equals(spec1.company) && spec.color.equals(spec1.color) && spec.price==spec1.price){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

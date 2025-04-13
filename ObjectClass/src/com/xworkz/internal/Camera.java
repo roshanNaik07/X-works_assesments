@@ -14,4 +14,23 @@ public class Camera {
     public String toString() {
         return "brand : "+brand+" type : "+type+" price : "+price;
     }
+
+    @Override
+    public int hashCode() {
+        return 145;
+    }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof Camera){
+                Camera camera = this;
+                Camera camera1 =(Camera) obj;
+                if (camera.brand.equals(camera1.brand) && camera.type.equals(camera1.type)){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

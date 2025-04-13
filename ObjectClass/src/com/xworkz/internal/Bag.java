@@ -15,4 +15,24 @@ public class Bag {
     public String toString(){
         return "Brand : "+brand+" color : "+color+" price : "+price;
     }
+
+    @Override
+    public int hashCode() {
+        return 111;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof Bag){
+                Bag bag=this;
+                Bag bag1=(Bag) obj;
+                if (bag.brand.equals(bag1.brand)){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

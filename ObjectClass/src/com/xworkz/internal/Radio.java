@@ -14,4 +14,24 @@ public class Radio {
     public String toString() {
         return "brand : "+brand+" type : "+type+" price : "+price;
     }
+
+    @Override
+    public int hashCode() {
+        return 183;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof Radio){
+                Radio radio = this;
+                Radio radio1 =(Radio) obj;
+                if (radio.brand.equals(radio1.brand) && radio.type.equals(radio1.type)){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

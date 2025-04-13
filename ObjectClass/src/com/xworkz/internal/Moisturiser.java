@@ -14,4 +14,23 @@ public class Moisturiser {
     public String toString() {
         return "brand : "+brand+" type : "+type+" price : "+price;
     }
+
+    @Override
+    public int hashCode() {
+        return 167;
+    }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof Moisturiser){
+                Moisturiser moisturiser = this;
+                Moisturiser moisturiser1 =(Moisturiser) obj;
+                if (moisturiser.brand.equals(moisturiser1.brand) && moisturiser.type.equals(moisturiser1.type)){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

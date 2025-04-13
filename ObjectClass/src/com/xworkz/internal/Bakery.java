@@ -14,4 +14,23 @@ public class Bakery {
     public String toString() {
         return "name : "+name+" location : "+location+" startTime : "+startTime;
     }
+
+    @Override
+    public int hashCode() {
+        return 140;
+    }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null){
+            System.out.println("obj is not null");
+            if (obj instanceof Bakery){
+                Bakery bakery = this;
+                Bakery bakery1 =(Bakery) obj;
+                if (bakery.name.equals(bakery1.name) && bakery.location.equals(bakery1.location)){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
