@@ -1,6 +1,6 @@
 package com.xworkz.Rules;
 
-public interface AmazonForest {
+public interface    AmazonForest {
     void rules();
 
     void safety();
