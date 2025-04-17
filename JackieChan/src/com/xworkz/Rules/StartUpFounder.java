@@ -16,4 +16,9 @@ public class StartUpFounder implements StartUp{
     public void termsAndConditions(){
         System.out.println("Terms and conditions are important");
     }
+
+    @Override
+    public void startupCulture(){
+        System.out.println("Startup culture is important");
+    }
 }

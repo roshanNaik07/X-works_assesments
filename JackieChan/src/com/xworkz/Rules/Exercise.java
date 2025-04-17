@@ -8,4 +8,7 @@ public interface Exercise {
 
     void strengthTraining();
 
+    default void flexibility() {
+        System.out.println("flexibility is important");
+    }
 }

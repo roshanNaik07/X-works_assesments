@@ -7,4 +7,7 @@ public interface Crop {
 
     void crop();
 
+    default void season() {
+        System.out.println("The season for rice is summer.");
+    }
 }

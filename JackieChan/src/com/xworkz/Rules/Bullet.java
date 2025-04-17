@@ -7,4 +7,7 @@ public interface Bullet {
 
     void bullet();
 
+    default void material() {
+        System.out.println("The material for bullet proof is steel.");
+    }
 }

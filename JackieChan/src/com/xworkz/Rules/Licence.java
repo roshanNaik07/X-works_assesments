@@ -7,4 +7,8 @@ public interface Licence {
     void vehicles();
 
     void signals();
+
+    default void apply(){
+        System.out.println("apply for licence");
+    }
 }

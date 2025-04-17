@@ -16,4 +16,9 @@ public class BasketBallPlayer implements BasketBall {
     public void refereeDecision() {
         System.out.println("Referee decisions in basketball include: ");
     }
+
+    @Override
+    public void Practice() {
+        System.out.println("Basketball practice is essential");
+    }
 }

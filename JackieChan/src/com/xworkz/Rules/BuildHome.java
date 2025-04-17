@@ -17,4 +17,8 @@ public class BuildHome implements Construction {
         System.out.println("Construction is in progress");
     }
 
+    @Override
+    public void material() {
+        System.out.println("The material for construction is concrete.");
+    }
 }

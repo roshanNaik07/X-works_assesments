@@ -16,5 +16,10 @@ public class Alcoholic implements Bar{
     public void respect() {
         System.out.println("Respect in the bar");
     }
+
+    @Override
+    public void barRules() {
+        System.out.println("Bar rules are important");
+    }
 }
 

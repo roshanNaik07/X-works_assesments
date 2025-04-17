@@ -16,4 +16,9 @@ public class CourierArtWork implements Courier {
     public void courier() {
         System.out.println("Courier art work");
     }
+
+    @Override
+    public void price() {
+        System.out.println("The price for courier art work is 200.");
+    }
 }

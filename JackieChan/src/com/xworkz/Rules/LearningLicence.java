@@ -17,4 +17,8 @@ public class LearningLicence implements Licence{
         System.out.println("Learning Licence Signals");
     }
 
+    @Override
+    public void apply() {
+        System.out.println("Apply for Learning Licence");
+    }
 }

@@ -8,4 +8,7 @@ public interface StudentRules {
 
     void teachers();
 
+    default void attendance() {
+        System.out.println("Attendance is mandatory for all classes.");
+    }
 }

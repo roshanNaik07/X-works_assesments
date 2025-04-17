@@ -7,4 +7,7 @@ public interface ParaGliding {
 
     void equipment();
 
+    default void weatherConditions() {
+        System.out.println("Weather conditions are important for para-gliding");
+    }
 }

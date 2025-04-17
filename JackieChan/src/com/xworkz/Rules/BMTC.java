@@ -16,4 +16,9 @@ public class BMTC implements Bus {
     public void bus() {
         System.out.println("BMTC bus");
     }
+
+    @Override
+    public void timing() {
+        System.out.println("The timing for BMTC is 10:00 AM.");
+    }
 }

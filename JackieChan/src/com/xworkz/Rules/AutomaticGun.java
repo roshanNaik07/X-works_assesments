@@ -17,4 +17,8 @@ public class AutomaticGun implements Gun {
         System.out.println("Automatic gun");
     }
 
+    @Override
+    public void safetyMeasures() {
+        System.out.println("Safety measures are important for automatic guns.");
+    }
 }

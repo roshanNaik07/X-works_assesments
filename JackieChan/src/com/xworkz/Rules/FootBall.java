@@ -8,4 +8,7 @@ public interface FootBall {
 
     void refereeDecision();
 
+    default void Practice(){
+        System.out.println("Football practice is essential");
+    }
 }

@@ -17,4 +17,8 @@ public class RatPoison implements Poison {
         System.out.println("Rat poison is dangerous");
     }
 
+    @Override
+    public void protection() {
+        System.out.println("Protection is important for rat poison");
+    }
 }

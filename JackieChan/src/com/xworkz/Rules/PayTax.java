@@ -17,4 +17,8 @@ public class PayTax implements Tax{
         System.out.println("Avoid penalties by paying on time");
     }
 
+    @Override
+    public void taxBenefits() {
+        System.out.println("Tax benefits can help reduce your taxable income.");
+    }
 }

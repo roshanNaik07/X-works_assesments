@@ -16,4 +16,9 @@ public class OrderBiryani implements OrderFood{
     public void payment() {
         System.out.println("Payment for food");
     }
+
+    @Override
+    public void type(){
+        System.out.println("Type of food");
+    }
 }

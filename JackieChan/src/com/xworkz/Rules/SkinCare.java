@@ -7,4 +7,8 @@ public interface SkinCare {
     void skinCareDiet();
 
     void skinCareLifestyle();
+
+    default void skinCareRoutine() {
+        System.out.println("Skin care routine is important");
+    }
 }

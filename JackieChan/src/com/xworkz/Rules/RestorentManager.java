@@ -21,4 +21,9 @@ public class RestorentManager implements Restorent{
     public void ambiance() {
         System.out.println("Restorent ambiance");
     }
+
+    @Override
+    public void cleanliness() {
+        System.out.println("Restorent cleanliness is important");
+    }
 }

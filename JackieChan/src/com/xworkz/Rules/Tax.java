@@ -8,4 +8,7 @@ public interface Tax {
 
     void taxFiling();
 
+    default void taxBenefits() {
+        System.out.println("Tax benefits can help reduce your taxable income.");
+    }
 }

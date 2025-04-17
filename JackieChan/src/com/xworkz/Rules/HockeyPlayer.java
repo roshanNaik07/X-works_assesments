@@ -17,4 +17,8 @@ public class HockeyPlayer implements Hockey {
         System.out.println("Hockey equipment: 1. Stick, 2. Puck, 3. Skates");
     }
 
+    @Override
+    public void practice() {
+        System.out.println("Hockey practice is important for skill development");
+    }
 }

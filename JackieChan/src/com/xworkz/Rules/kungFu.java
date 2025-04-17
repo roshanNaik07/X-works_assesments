@@ -8,4 +8,7 @@ public interface kungFu {
 
     void teachers();
 
+    default void learn() {
+        System.out.println("learn kung fu");
+    }
 }

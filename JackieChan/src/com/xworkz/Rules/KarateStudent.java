@@ -17,4 +17,8 @@ public class KarateStudent implements Karate{
         System.out.println("Karate teachers");
     }
 
+    @Override
+    public void learn() {
+        System.out.println("learn karate");
+    }
 }

@@ -6,4 +6,9 @@ public interface Economy {
     void safety();
 
     void economy();
+
+    default void improvement() {
+        System.out.println("Improvement is important for economy.");
+    }
 }
+

@@ -16,4 +16,9 @@ public class Gliding implements ParaGliding {
     public void equipment() {
         System.out.println("Equipment needed: Glider, harness, helmet, and parachute.");
     }
+
+    @Override
+    public void weatherConditions() {
+        System.out.println("Weather conditions are crucial for safe gliding.");
+    }
 }

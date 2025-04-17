@@ -17,4 +17,9 @@ public class KungFuStudent implements kungFu{
         System.out.println("Kung Fu students must respect their teachers.");
     }
 
+    @Override
+    public void learn() {
+        System.out.println("Kung Fu students must learn the techniques and forms of Kung Fu.");
+    }
+
 }

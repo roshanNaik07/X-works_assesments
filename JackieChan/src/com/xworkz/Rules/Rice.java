@@ -17,4 +17,8 @@ public class Rice implements Crop {
         System.out.println("Rice is grown in flooded fields.");
     }
 
+    @Override
+    public void season() {
+        System.out.println("The season for rice is summer.");
+    }
 }

@@ -7,5 +7,8 @@ public interface Satellite {
 
     void signals();
 
+    default void launch() {
+        System.out.println("Satellite launched by ISRO");
+    }
 
 }

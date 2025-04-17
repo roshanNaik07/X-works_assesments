@@ -17,4 +17,8 @@ public class RocketCrackers implements Crackers {
         System.out.println("Rocket Crackers are available");
     }
 
+    @Override
+    public void safetyMeasures() {
+        System.out.println("Safety measures are crucial for Rocket Crackers.");
+    }
 }

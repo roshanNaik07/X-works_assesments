@@ -15,4 +15,9 @@ public class EcoBeach implements Beach{
     public void beach() {
         System.out.println("Eco Beach");
     }
+
+    @Override
+    public void clean() {
+        System.out.println("Cleanliness is important for Eco Beach");
+    }
 }

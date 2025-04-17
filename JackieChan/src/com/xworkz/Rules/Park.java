@@ -8,4 +8,8 @@ public interface Park {
 
     void facilities();
 
+    default void rules() {
+        System.out.println("Park rules are to be followed");
+    }
+
 }

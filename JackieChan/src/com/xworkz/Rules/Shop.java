@@ -6,4 +6,8 @@ public interface Shop {
     void safety();
 
     void shop();
+
+    default void items() {
+        System.out.println("Items are important for the shop");
+    }
 }

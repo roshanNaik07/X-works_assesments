@@ -17,4 +17,8 @@ public class CoalIndustry implements Industry{
         System.out.println("Coal Industry Environment");
     }
 
+    @Override
+    public void safety() {
+        System.out.println("Safety is a priority in the coal industry.");
+    }
 }

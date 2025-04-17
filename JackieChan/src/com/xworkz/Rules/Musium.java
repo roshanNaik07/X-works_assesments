@@ -8,4 +8,7 @@ public interface Musium {
 
     void guides();
 
+    default void safety() {
+        System.out.println("Safety is a priority in the museum.");
+    }
 }

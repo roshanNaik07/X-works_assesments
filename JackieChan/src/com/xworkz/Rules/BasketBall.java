@@ -8,4 +8,7 @@ public interface BasketBall {
 
     void refereeDecision();
 
+    default void Practice() {
+        System.out.println("Basketball practice is essential");
+    }
 }

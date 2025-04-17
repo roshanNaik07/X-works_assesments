@@ -6,4 +6,8 @@ public interface Jacket {
     void safety();
 
     void jacket();
+
+    default void material() {
+        System.out.println("The material for jacket is polyester.");
+    }
 }

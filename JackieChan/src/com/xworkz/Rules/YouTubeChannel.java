@@ -16,4 +16,9 @@ public class YouTubeChannel implements YouTube {
     public void channels() {
         System.out.println("YouTube channels");
     }
+
+    @Override
+    public void subscription() {
+        System.out.println("Subscription is required for premium content");
+    }
 }

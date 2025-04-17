@@ -8,4 +8,7 @@ public interface YouTube {
 
     void channels();
 
+    default void subscription() {
+        System.out.println("Subscription is required for premium content");
+    }
 }

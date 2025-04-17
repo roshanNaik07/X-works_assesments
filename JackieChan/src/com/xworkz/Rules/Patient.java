@@ -17,4 +17,9 @@ public class Patient implements Hospital{
         System.out.println("patientRightsAndResponsibilities is important");
     }
 
+    @Override
+    public void patientCare() {
+        System.out.println("Patient care is important");
+    }
+
 }

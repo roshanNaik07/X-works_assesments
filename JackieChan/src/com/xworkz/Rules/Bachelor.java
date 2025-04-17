@@ -16,4 +16,9 @@ public class Bachelor implements PG{
     public void silence() {
         System.out.println("Maintaining silence in the bachelor room");
     }
+
+    @Override
+    public void Timing() {
+        System.out.println("Bachelor timing is 10 PM");
+    }
 }

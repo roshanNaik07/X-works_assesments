@@ -16,4 +16,9 @@ public class KarnatakaPolice implements Police {
     public void police() {
         System.out.println("Karnataka Police");
     }
+
+    @Override
+    public void duty() {
+        System.out.println("Duty is important for Karnataka Police");
+    }
 }

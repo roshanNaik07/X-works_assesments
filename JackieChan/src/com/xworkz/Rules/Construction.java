@@ -6,4 +6,8 @@ public interface Construction {
     void safety();
 
     void construction();
+
+    default void material() {
+        System.out.println("The material for construction is concrete.");
+    }
 }

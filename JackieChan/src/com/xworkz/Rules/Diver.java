@@ -17,4 +17,8 @@ public class Diver implements ScubaDive{
         System.out.println("Diver equipment");
     }
 
+    @Override
+    public void practice() {
+        System.out.println("Diver practice is important");
+    }
 }

@@ -16,4 +16,9 @@ public class MountainTreckking implements Treckking {
     public void trekking() {
         System.out.println("Trekking is done in a safe manner");
     }
+
+    @Override
+    public void season() {
+        System.out.println("The season for trekking is winter.");
+    }
 }

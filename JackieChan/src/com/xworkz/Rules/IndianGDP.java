@@ -16,4 +16,9 @@ public class IndianGDP implements GDP {
     public void gdp() {
         System.out.println("India's GDP is one of the largest in the world.");
     }
+
+    @Override
+    public void improvement() {
+        System.out.println("Improvement is crucial for India's GDP growth.");
+    }
 }

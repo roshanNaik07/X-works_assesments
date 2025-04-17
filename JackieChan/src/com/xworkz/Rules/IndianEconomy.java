@@ -17,4 +17,8 @@ public class IndianEconomy implements Economy {
         System.out.println("The Indian economy is diverse and robust.");
     }
 
+    @Override
+    public void improvement() {
+        System.out.println("Improvement is crucial for the Indian economy.");
+    }
 }

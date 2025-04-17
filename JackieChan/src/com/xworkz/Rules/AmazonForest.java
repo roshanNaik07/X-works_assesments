@@ -6,4 +6,8 @@ public interface    AmazonForest {
     void safety();
 
     void forest();
+
+    default void protection() {
+        System.out.println("Protection is important for the Amazon forest");
+    }
 }

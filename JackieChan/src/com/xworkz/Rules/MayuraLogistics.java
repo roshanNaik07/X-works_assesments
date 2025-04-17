@@ -16,4 +16,9 @@ public class MayuraLogistics implements Logistics {
     public void warehousing() {
         System.out.println("Logistics warehousing");
     }
+
+    @Override
+    public void approval() {
+        System.out.println("Logistics approval is important");
+    }
 }

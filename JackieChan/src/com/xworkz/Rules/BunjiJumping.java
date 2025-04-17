@@ -6,4 +6,8 @@ public interface BunjiJumping {
     void safety();
 
     void bunjiJumping();
+
+    default void protection() {
+        System.out.println("Protection is important for bunjiJumping");
+    }
 }

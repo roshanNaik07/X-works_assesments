@@ -11,6 +11,7 @@ public class Runner {
         Student student = new Student();
         student.teach();
         student.clean();
+
         ClassRoom.lock();
 
         System.out.println();
@@ -19,6 +20,7 @@ public class Runner {
         Employee employee = new Employee();
         employee.work();
         employee.clean();
+
         Office.lock();
 
         System.out.println();
@@ -27,6 +29,7 @@ public class Runner {
         Xworkz xworkz = new Intern();
         xworkz.clean();
         xworkz.teach();
+
         Xworkz.lock();
 
         System.out.println();
@@ -37,6 +40,8 @@ public class Runner {
         bachelor.clean();
         bachelor.silence();
 
+        bachelor.Timing();
+
         System.out.println();
         System.out.println("----------------------- 5 ---------------------");
 
@@ -44,6 +49,8 @@ public class Runner {
         parkWatchMan.clean();
         parkWatchMan.facilities();
         parkWatchMan.timings();
+
+        parkWatchMan.rules();
 
         System.out.println();
         System.out.println("----------------------- 6 ---------------------");
@@ -53,6 +60,8 @@ public class Runner {
         cricketPlayer.rules();
         cricketPlayer.umpireDecision();
 
+        cricketPlayer.kit();
+
         System.out.println();
         System.out.println("----------------------- 7 ---------------------");
 
@@ -60,6 +69,8 @@ public class Runner {
         footBallPlayer.players();
         footBallPlayer.rules();
         footBallPlayer.refereeDecision();
+
+        footBallPlayer.Practice();
 
         System.out.println();
         System.out.println("----------------------- 8 ---------------------");
@@ -69,6 +80,8 @@ public class Runner {
         basketBallPlayer.rules();
         basketBallPlayer.refereeDecision();
 
+        basketBallPlayer.Practice();
+
         System.out.println();
         System.out.println("----------------------- 9 ---------------------");
 
@@ -76,6 +89,8 @@ public class Runner {
         youTubeChannel.videos();
         youTubeChannel.rules();
         youTubeChannel.channels();
+
+        youTubeChannel.subscription();
 
         System.out.println();
         System.out.println("----------------------- 10 ---------------------");
@@ -85,6 +100,8 @@ public class Runner {
         collegeStudent.teachers();
         collegeStudent.rules();
 
+        collegeStudent.attendance();
+
         System.out.println();
         System.out.println("----------------------- 11 ---------------------");
 
@@ -92,6 +109,8 @@ public class Runner {
         familyMember.friends();
         familyMember.houseHelp();
         familyMember.neighbors();
+
+        familyMember.familyTime();
 
         System.out.println();
         System.out.println("----------------------- 12 ---------------------");
@@ -101,6 +120,8 @@ public class Runner {
         vehicles.rules();
         vehicles.signals();
 
+        vehicles.speedLimit();
+
         System.out.println();
         System.out.println("----------------------- 13 ---------------------");
 
@@ -108,6 +129,8 @@ public class Runner {
         buyShirt.privacyPolicy();
         buyShirt.termsAndConditions();
         buyShirt.returnsAndExchanges();
+
+        buyShirt.paymentMethods();
 
         System.out.println();
         System.out.println("----------------------- 14 ---------------------");
@@ -117,6 +140,8 @@ public class Runner {
         payTax.taxRate();
         payTax.taxFiling();
 
+        payTax.taxBenefits();
+
         System.out.println();
         System.out.println("----------------------- 15 ---------------------");
 
@@ -124,6 +149,8 @@ public class Runner {
         orderLaptop.privacyPolicy();
         orderLaptop.termsAndConditions();
         orderLaptop.returnsAndExchanges();
+
+        orderLaptop.paymentMethods();
 
         System.out.println();
         System.out.println("----------------------- 16 ---------------------");
@@ -133,6 +160,8 @@ public class Runner {
         coalIndustry.employees();
         coalIndustry.managers();
 
+        coalIndustry.safety();
+
         System.out.println();
         System.out.println("----------------------- 17 ---------------------");
 
@@ -140,6 +169,8 @@ public class Runner {
         poojari.pooja();
         poojari.rules();
         poojari.prasad();
+
+        poojari.rituals();
 
         System.out.println();
         System.out.println("----------------------- 18 ---------------------");
@@ -149,6 +180,8 @@ public class Runner {
         musiumVisitors.tickets();
         musiumVisitors.guides();
 
+        musiumVisitors.safety();
+
         System.out.println();
         System.out.println("----------------------- 19 ---------------------");
 
@@ -156,6 +189,8 @@ public class Runner {
         pilgrimVisitors.rules();
         pilgrimVisitors.dressCode();
         pilgrimVisitors.food();
+
+        pilgrimVisitors.safety();
 
         System.out.println();
         System.out.println("----------------------- 20 ---------------------");
@@ -165,6 +200,8 @@ public class Runner {
         orderBiryani.delivery();
         orderBiryani.order();
 
+        orderBiryani.type();
+
         System.out.println();
         System.out.println("----------------------- 21 ---------------------");
 
@@ -172,6 +209,8 @@ public class Runner {
         faceWash.skinCareLifestyle();
         faceWash.skinCareHydration();
         faceWash.skinCareDiet();
+
+        faceWash.skinCareRoutine();
 
         System.out.println();
         System.out.println("----------------------- 22 ---------------------");
@@ -181,6 +220,8 @@ public class Runner {
         patient.billingAndInsurance();
         patient.patientRightsAndResponsibilities();
 
+        patient.patientCare();
+
         System.out.println();
         System.out.println("----------------------- 23 ---------------------");
 
@@ -188,6 +229,8 @@ public class Runner {
         startUpFounder.privacyPolicy();
         startUpFounder.returnsAndExchanges();
         startUpFounder.termsAndConditions();
+
+        startUpFounder.startupCulture();
 
         System.out.println();
         System.out.println("----------------------- 24 ---------------------");
@@ -197,6 +240,8 @@ public class Runner {
         alcoholic.respect();
         alcoholic.safety();
 
+        alcoholic.barRules();
+
         System.out.println();
         System.out.println("----------------------- 25 ---------------------");
 
@@ -204,6 +249,8 @@ public class Runner {
         learningLicence.rules();
         learningLicence.vehicles();
         learningLicence.signals();
+
+        learningLicence.apply();
 
         System.out.println();
         System.out.println("----------------------- 26 ---------------------");
@@ -213,6 +260,8 @@ public class Runner {
         ashram.monks();
         ashram.temples();
 
+        ashram.ashram();
+
         System.out.println();
         System.out.println("----------------------- 27 ---------------------");
 
@@ -221,13 +270,17 @@ public class Runner {
         yogiLifeStyle.yoga();
         yogiLifeStyle.pranayama();
 
+        yogiLifeStyle.ashram();
+
         System.out.println();
         System.out.println("----------------------- 28 ---------------------");
 
         KarateStudent karateStudent = new KarateStudent();
         karateStudent.rules();
         karateStudent.students();
-        karateStudent.students();
+        karateStudent.teachers();
+
+        karateStudent.learn();
 
         System.out.println();
         System.out.println("----------------------- 29 ---------------------");
@@ -237,6 +290,7 @@ public class Runner {
         kungFuStudent.students();
         kungFuStudent.teachers();
 
+        kungFuStudent.learn();
 
         System.out.println();
         System.out.println("----------------------- 30 ---------------------");
@@ -246,6 +300,8 @@ public class Runner {
         warmUp.strengthTraining();
         warmUp.warmUp();
 
+        warmUp.flexibility();
+
         System.out.println();
         System.out.println("----------------------- 31 ---------------------");
 
@@ -253,6 +309,8 @@ public class Runner {
         soldier.rules();
         soldier.soldiers();
         soldier.weapons();
+
+        soldier.force();
 
         System.out.println();
         System.out.println("----------------------- 32 ---------------------");
@@ -262,6 +320,8 @@ public class Runner {
         isro.satellites();
         isro.signals();
 
+        isro.launch();
+
         System.out.println();
         System.out.println("----------------------- 33 ---------------------");
 
@@ -269,6 +329,8 @@ public class Runner {
         cleanRiver.recreation();
         cleanRiver.hydropower();
         cleanRiver.navigation();
+
+        cleanRiver.waterQuality();
 
         System.out.println();
         System.out.println("----------------------- 34 ---------------------");
@@ -278,6 +340,8 @@ public class Runner {
         hotelManager.food();
         hotelManager.service();
 
+        hotelManager.cleanliness();
+
         System.out.println();
         System.out.println("----------------------- 35 ---------------------");
 
@@ -285,6 +349,8 @@ public class Runner {
         restorentManager.rules();
         restorentManager.food();
         restorentManager.service();
+
+        restorentManager.cleanliness();
 
         System.out.println();
         System.out.println("----------------------- 36 ---------------------");
@@ -294,6 +360,8 @@ public class Runner {
         mayuraLogistics.transportation();
         mayuraLogistics.warehousing();
 
+        mayuraLogistics.approval();
+
         System.out.println();
         System.out.println("----------------------- 37 ---------------------");
 
@@ -301,6 +369,8 @@ public class Runner {
         biker.rules();
         biker.speed();
         biker.safety();
+
+        biker.bikeCompany();
 
         System.out.println();
         System.out.println("----------------------- 38 ---------------------");
@@ -310,6 +380,8 @@ public class Runner {
         gliding.equipment();
         gliding.safety();
 
+        gliding.weatherConditions();
+
         System.out.println();
         System.out.println("----------------------- 39 ---------------------");
 
@@ -317,6 +389,8 @@ public class Runner {
         diver.rules();
         diver.safety();
         diver.equipment();
+
+        diver.practice();
 
         System.out.println();
         System.out.println("----------------------- 40 ---------------------");
@@ -326,6 +400,8 @@ public class Runner {
         hockeyPlayer.safety();
         hockeyPlayer.equipment();
 
+        hockeyPlayer.practice();
+
         System.out.println();
         System.out.println("----------------------- 41 ---------------------");
 
@@ -333,6 +409,8 @@ public class Runner {
         baseBallPlayer.equipment();
         baseBallPlayer.rules();
         baseBallPlayer.safety();
+
+        baseBallPlayer.practice();
 
         System.out.println();
         System.out.println("----------------------- 42 ---------------------");
@@ -342,6 +420,8 @@ public class Runner {
         politician.safety();
         politician.rules();
 
+        politician.management();
+
         System.out.println();
         System.out.println("----------------------- 43 ---------------------");
 
@@ -349,6 +429,8 @@ public class Runner {
         narendraModi.rules();
         narendraModi.safety();
         narendraModi.primeMinister();
+
+        narendraModi.foreignAffairs();
 
         System.out.println();
         System.out.println("----------------------- 44 ---------------------");
@@ -358,6 +440,8 @@ public class Runner {
         indianBank.safety();
         indianBank.bank();
 
+        indianBank.management();
+
         System.out.println();
         System.out.println("----------------------- 45 ---------------------");
 
@@ -365,6 +449,8 @@ public class Runner {
         nalanda.rules();
         nalanda.silence();
         nalanda.library();
+
+        nalanda.renovation();
 
         System.out.println();
         System.out.println("----------------------- 46 ---------------------");
@@ -374,6 +460,8 @@ public class Runner {
         telephoneTower.safety();
         telephoneTower.tower();
 
+        telephoneTower.installation();
+
         System.out.println();
         System.out.println("----------------------- 47 ---------------------");
 
@@ -381,6 +469,8 @@ public class Runner {
         ecoBeach.rules();
         ecoBeach.safety();
         ecoBeach.beach();
+
+        ecoBeach.clean();
 
         System.out.println();
         System.out.println("----------------------- 48 ---------------------");
@@ -390,6 +480,8 @@ public class Runner {
         amazonFouna.safety();
         amazonFouna.forest();
 
+        amazonFouna.protection();
+
         System.out.println();
         System.out.println("----------------------- 49 ---------------------");
 
@@ -397,6 +489,8 @@ public class Runner {
         andaman.rules();
         andaman.safety();
         andaman.island();
+
+        andaman.packages();
 
         System.out.println();
         System.out.println("----------------------- 50 ---------------------");
@@ -406,6 +500,8 @@ public class Runner {
         ratPoison.safety();
         ratPoison.poison();
 
+        ratPoison.protection();
+
         System.out.println();
         System.out.println("----------------------- 51 ---------------------");
 
@@ -413,6 +509,8 @@ public class Runner {
         grosary.rules();
         grosary.safety();
         grosary.shop();
+
+        grosary.items();
 
         System.out.println();
         System.out.println("----------------------- 52 ---------------------");
@@ -422,6 +520,8 @@ public class Runner {
         jumper.safety();
         jumper.bunjiJumping();
 
+        jumper.protection();
+
         System.out.println();
         System.out.println("----------------------- 53 ---------------------");
 
@@ -429,6 +529,8 @@ public class Runner {
         karnatakaPolice.rules();
         karnatakaPolice.safety();
         karnatakaPolice.police();
+
+        karnatakaPolice.duty();
 
         System.out.println();
         System.out.println("----------------------- 54 ---------------------");
@@ -438,6 +540,8 @@ public class Runner {
         warShips.safety();
         warShips.navy();
 
+        warShips.maintainShip();
+
         System.out.println();
         System.out.println("----------------------- 55 ---------------------");
 
@@ -445,6 +549,8 @@ public class Runner {
         diwali.rules();
         diwali.ritual();
         diwali.festival();
+
+        diwali.celebration();
 
         System.out.println();
         System.out.println("----------------------- 56 ---------------------");
@@ -454,6 +560,8 @@ public class Runner {
         rocketCrackers.crackers();
         rocketCrackers.Sell();
 
+        rocketCrackers.safetyMeasures();
+
         System.out.println();
         System.out.println("----------------------- 57 ---------------------");
 
@@ -461,6 +569,8 @@ public class Runner {
         automaticGun.rules();
         automaticGun.safety();
         automaticGun.gun();
+
+        automaticGun.safetyMeasures();
 
         System.out.println();
         System.out.println("----------------------- 58 ---------------------");
@@ -470,6 +580,8 @@ public class Runner {
         handGranade.safety();
         handGranade.granade();
 
+        handGranade.safetyMeasures();
+
         System.out.println();
         System.out.println("----------------------- 59 ---------------------");
 
@@ -477,6 +589,8 @@ public class Runner {
         publicStrick.rules();
         publicStrick.safety();
         publicStrick.strick();
+
+        publicStrick.opposition();
 
         System.out.println();
         System.out.println("----------------------- 60 ---------------------");
@@ -486,12 +600,17 @@ public class Runner {
         kargil.safety();
         kargil.war();
 
+        kargil.attack();
+
         System.out.println();
         System.out.println("----------------------- 61 ---------------------");
+
         SpaceWar spaceWar = new SpaceWar();
         spaceWar.coldWar();;
         spaceWar.rules();
         spaceWar.safety();
+
+        spaceWar.economyReasons();
 
         System.out.println();
         System.out.println("----------------------- 62 ---------------------");
@@ -501,6 +620,8 @@ public class Runner {
         indianEconomy.growth();
         indianEconomy.safety();
 
+        indianEconomy.improvement();
+
         System.out.println();
         System.out.println("----------------------- 63 ---------------------");
 
@@ -508,6 +629,8 @@ public class Runner {
         indianGDP.growth();
         indianGDP.safety();
         indianGDP.gdp();
+
+        indianGDP.improvement();
 
         System.out.println();
         System.out.println("----------------------- 64 ---------------------");
@@ -517,6 +640,8 @@ public class Runner {
         rice.yield();
         rice.growth();
 
+        rice.season();
+
         System.out.println();
         System.out.println("----------------------- 65 ---------------------");
 
@@ -524,6 +649,8 @@ public class Runner {
         mountainTreckking.rules();
         mountainTreckking.safety();
         mountainTreckking.trekking();
+
+        mountainTreckking.season();
 
         System.out.println();
         System.out.println("----------------------- 66 ---------------------");
@@ -533,6 +660,8 @@ public class Runner {
         bulletProof.safety();
         bulletProof.bullet();
 
+        bulletProof.material();
+
         System.out.println();
         System.out.println("----------------------- 67 ---------------------");
 
@@ -540,6 +669,8 @@ public class Runner {
         pumaJacket.waterProof();
         pumaJacket.safety();
         pumaJacket.jacket();
+
+        pumaJacket.material();
 
         System.out.println();
         System.out.println("----------------------- 68 ---------------------");
@@ -549,6 +680,8 @@ public class Runner {
         safeWater.safety();
         safeWater.filter();
 
+        safeWater.temperature();
+
         System.out.println();
         System.out.println("----------------------- 69 ---------------------");
 
@@ -556,6 +689,8 @@ public class Runner {
         buildHome.rules();
         buildHome.safety();
         buildHome.construction();
+
+        buildHome.material();
 
         System.out.println();
         System.out.println("----------------------- 70 ---------------------");
@@ -565,6 +700,8 @@ public class Runner {
         metro.safety();
         metro.train();
 
+        metro.timing();
+
         System.out.println();
         System.out.println("----------------------- 71 ---------------------");
 
@@ -572,6 +709,8 @@ public class Runner {
         bmtc.rules();
         bmtc.safety();
         bmtc.bus();
+
+        bmtc.timing();
 
         System.out.println();
         System.out.println("----------------------- 72 ---------------------");
@@ -581,6 +720,8 @@ public class Runner {
         mumbaiStock.safety();
         mumbaiStock.stockMarket();
 
+        mumbaiStock.timing();
+
         System.out.println();
         System.out.println("----------------------- 73 ---------------------");
 
@@ -589,6 +730,8 @@ public class Runner {
         motoGtRacing.safety();
         motoGtRacing.racing();
 
+        motoGtRacing.driver();
+
         System.out.println();
         System.out.println("----------------------- 74 ---------------------");
 
@@ -596,6 +739,8 @@ public class Runner {
         courierArtWork.courier();
         courierArtWork.safety();
         courierArtWork.protect();
+
+        courierArtWork.price();
 
     }
 }

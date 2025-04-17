@@ -17,4 +17,8 @@ public class TelephoneTower implements Tower {
         System.out.println("Telephone Tower");
     }
 
+    @Override
+    public void installation() {
+        System.out.println("Installation is important for Telephone Tower");
+    }
 }

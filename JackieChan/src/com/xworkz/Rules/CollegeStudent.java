@@ -17,4 +17,8 @@ public class CollegeStudent implements StudentRules {
         System.out.println("College students should respect their teachers and follow their instructions.");
     }
 
+    @Override
+    public void attendance() {
+        System.out.println("Attendance is mandatory for all classes.");
+    }
 }

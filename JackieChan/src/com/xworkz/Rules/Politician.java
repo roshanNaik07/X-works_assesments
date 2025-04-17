@@ -17,4 +17,8 @@ public class Politician implements Politics {
         System.out.println("Politician equipment");
     }
 
+    @Override
+    public void management() {
+        System.out.println("Management is important for politician");
+    }
 }
