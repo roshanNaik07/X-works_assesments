@@ -6,4 +6,8 @@ public interface Treckking {
     void safety();
 
     void trekking();
+
+    default void season() {
+        System.out.println("The season for trekking is summer.");
+    }
 }

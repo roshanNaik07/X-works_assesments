@@ -17,4 +17,8 @@ public class Ashram implements Monk{
         System.out.println("Monk ashram");
     }
 
+    @Override
+    public void ashram() {
+        System.out.println("Monk ashram");
+    }
 }

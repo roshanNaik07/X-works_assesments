@@ -16,4 +16,8 @@ public class Jumper implements BunjiJumping{
         System.out.println("Jumper bunjiJumping");
     }
 
+    @Override
+    public void protection() {
+        System.out.println("Protection is important for the Jumper");
+    }
 }

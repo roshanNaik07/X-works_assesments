@@ -15,4 +15,9 @@ public class Andaman implements Island{
     public void island() {
         System.out.println("Andaman is a beautiful island destination.");
     }
+
+    @Override
+    public void packages() {
+        System.out.println("Packages are available for Andaman tours.");
+    }
 }

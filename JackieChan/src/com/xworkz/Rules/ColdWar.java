@@ -6,4 +6,8 @@ public interface ColdWar {
     void safety();
 
     void coldWar();
+
+    default void economyReasons() {
+        System.out.println("Economic reasons are cold war.");
+    }
 }

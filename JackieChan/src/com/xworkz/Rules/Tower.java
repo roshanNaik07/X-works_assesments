@@ -7,4 +7,8 @@ public interface Tower {
     void safety();
 
     void tower();
+
+    default void installation() {
+        System.out.println("Installation is important for the tower");
+    }
 }

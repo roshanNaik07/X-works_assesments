@@ -8,4 +8,7 @@ public interface PilgrimPlace {
 
     void food();
 
+    default void safety() {
+        System.out.println("Safety is a priority in the pilgrim place.");
+    }
 }

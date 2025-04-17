@@ -17,4 +17,8 @@ public class WarmUp implements Exercise{
         System.out.println("strengthTraining is important");
     }
 
+    @Override
+    public void flexibility() {
+        System.out.println("flexibility is important");
+    }
 }

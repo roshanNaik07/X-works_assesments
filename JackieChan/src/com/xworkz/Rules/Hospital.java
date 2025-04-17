@@ -7,4 +7,8 @@ public interface Hospital {
     void billingAndInsurance();
 
     void patientRightsAndResponsibilities();
+
+    default void patientCare() {
+        System.out.println("Patient care is important");
+    }
 }

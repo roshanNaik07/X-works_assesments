@@ -16,4 +16,9 @@ public class Grosary implements Shop{
     public void shop() {
         System.out.println("Grosary shop");
     }
+
+    @Override
+    public void items() {
+        System.out.println("Items are important for the Grosary");
+    }
 }

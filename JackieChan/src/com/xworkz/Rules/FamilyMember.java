@@ -16,4 +16,9 @@ public class FamilyMember implements HomeRules {
     public void houseHelp() {
         System.out.println("House help is important for a family.");
     }
+
+    @Override
+    public void familyTime() {
+        System.out.println("Family time is important for a family.");
+    }
 }

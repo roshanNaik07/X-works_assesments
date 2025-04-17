@@ -7,4 +7,8 @@ public interface River {
     void navigation();
 
     void hydropower();
+
+    default void waterQuality() {
+        System.out.println("Water quality is important");
+    }
 }

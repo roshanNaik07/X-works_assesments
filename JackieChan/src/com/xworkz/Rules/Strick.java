@@ -7,4 +7,7 @@ public interface Strick {
 
     void strick();
 
+    default void opposition() {
+        System.out.println("Opposition is important for strick.");
+    }
 }

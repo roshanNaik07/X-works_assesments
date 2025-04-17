@@ -16,4 +16,9 @@ public class Vehicles implements Traffic{
     public void signals() {
         System.out.println("Traffic signals help manage the flow of vehicles.");
     }
+
+    @Override
+    public void speedLimit(){
+        System.out.println("Speed limit is necessary");
+    }
 }

@@ -16,4 +16,10 @@ public class BuyShirt implements BuyThings{
     public void termsAndConditions() {
         System.out.println("By purchasing, you agree to our terms and conditions.");
     }
+
+    @Override
+    public void paymentMethods() {
+        System.out.println("We accept various payment methods including credit cards, debit cards, and PayPal.");
+    }
+
 }

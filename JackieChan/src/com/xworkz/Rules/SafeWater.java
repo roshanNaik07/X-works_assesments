@@ -15,4 +15,9 @@ public class SafeWater implements DrinkWater{
     public void drinkWater() {
         System.out.println("Drinking water");
     }
+
+    @Override
+    public void temperature() {
+        System.out.println("The temperature for drinking water is 25 degrees Celsius.");
+    }
 }

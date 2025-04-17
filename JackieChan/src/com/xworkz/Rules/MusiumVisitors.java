@@ -17,4 +17,9 @@ public class MusiumVisitors implements Musium{
         System.out.println("Tickets must be purchased in advance");
     }
 
+    @Override
+    public void safety() {
+        System.out.println("Safety is a priority in the museum.");
+    }
+
 }

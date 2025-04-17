@@ -16,4 +16,10 @@ public class PublicStrick implements Strick {
     public void strick() {
         System.out.println("Public strick");
     }
+
+    @Override
+    public void opposition() {
+        System.out.println("Opposition is important for public strick.");
+    }
+
 }

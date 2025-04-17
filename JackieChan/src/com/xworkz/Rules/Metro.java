@@ -17,4 +17,9 @@ public class Metro implements Train {
         System.out.println("Metro train");
     }
 
+    @Override
+    public void timing() {
+        System.out.println("The timing for metro is 10:00 AM.");
+    }
+
 }

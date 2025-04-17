@@ -6,4 +6,8 @@ public interface Police {
     void safety();
 
     void police();
+
+    default void duty() {
+        System.out.println("Duty is important for police");
+    }
 }

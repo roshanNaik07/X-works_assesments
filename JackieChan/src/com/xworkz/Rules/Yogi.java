@@ -8,4 +8,7 @@ public interface Yogi {
 
     void pranayama();
 
+    default void ashram() {
+        System.out.println("Yogi ashram");
+    }
 }

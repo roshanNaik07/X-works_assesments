@@ -6,4 +6,8 @@ public interface Poison {
     void safety();
 
     void poison();
+
+    default void protection() {
+        System.out.println("Protection is important for poison");
+    }
 }

@@ -16,4 +16,9 @@ public class SpaceWar implements ColdWar{
         System.out.println("Space war");
     }
 
+    @Override
+    public void economyReasons() {
+        System.out.println("Economic reasons are space war.");
+    }
+
 }

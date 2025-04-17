@@ -17,4 +17,9 @@ public class CricketPlayer implements Cricket {
         System.out.println("Umpire decision");
     }
 
+    @Override
+    public void kit() {
+        System.out.println("Cricket kit is required");
+    }
+
 }

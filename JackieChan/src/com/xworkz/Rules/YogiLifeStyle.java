@@ -17,4 +17,8 @@ public class YogiLifeStyle implements Yogi{
         System.out.println("pranayama for good health.");
     }
 
+    @Override
+    public void ashram() {
+        System.out.println("Yogi ashram");
+    }
 }

@@ -16,4 +16,9 @@ public class Nalanda implements Library{
     public void library() {
         System.out.println("Library of Nalanda");
     }
+
+    @Override
+    public void renovation() {
+        System.out.println("Renovation is important for Nalanda");
+    }
 }

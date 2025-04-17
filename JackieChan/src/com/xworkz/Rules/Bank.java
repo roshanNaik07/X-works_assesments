@@ -6,4 +6,8 @@ public interface Bank {
     void safety();
 
     void bank();
+
+    default void management() {
+        System.out.println("Management is important for banks");
+    }
 }

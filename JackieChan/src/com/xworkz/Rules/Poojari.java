@@ -16,4 +16,9 @@ public class Poojari implements Temple{
     public void prasad() {
         System.out.println("Poojari temple");
     }
+
+    @Override
+    public void rituals() {
+        System.out.println("Rituals are an important part of temple practices.");
+    }
 }

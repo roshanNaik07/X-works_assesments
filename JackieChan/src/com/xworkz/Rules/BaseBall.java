@@ -7,4 +7,7 @@ public interface BaseBall {
 
     void equipment();
 
+    default void practice() {
+        System.out.println("Practice is important for baseball");
+    }
 }

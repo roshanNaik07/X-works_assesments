@@ -7,4 +7,7 @@ public interface Granade {
 
     void granade();
 
+    default void safetyMeasures() {
+        System.out.println("Safety measures are important for grenades.");
+    }
 }

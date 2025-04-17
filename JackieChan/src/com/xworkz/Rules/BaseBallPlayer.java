@@ -16,4 +16,9 @@ public class BaseBallPlayer implements BaseBall {
     public void equipment() {
         System.out.println("Equipment: bat, ball, glove, bases.");
     }
+
+    @Override
+    public void practice() {
+        System.out.println("Practice is important for baseball.");
+    }
 }

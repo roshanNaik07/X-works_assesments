@@ -8,4 +8,8 @@ public interface Restorent {
     void service();
 
     void ambiance();
+
+    default void cleanliness() {
+        System.out.println("Restorent cleanliness is important");
+    }
 }

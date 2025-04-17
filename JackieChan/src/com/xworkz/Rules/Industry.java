@@ -8,4 +8,7 @@ public interface Industry {
 
     void managers();
 
+    default void safety() {
+        System.out.println("Safety is a priority in the industry.");
+    }
 }

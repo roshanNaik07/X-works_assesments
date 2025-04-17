@@ -6,4 +6,8 @@ public interface Gun {
     void safety();
 
     void gun();
+
+    default void safetyMeasures() {
+        System.out.println("Safety measures are important for guns.");
+    }
 }

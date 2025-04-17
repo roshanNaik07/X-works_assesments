@@ -7,4 +7,7 @@ public interface Politics {
 
     void equipment();
 
+    default void management() {
+        System.out.println("Management is important for politics");
+    }
 }

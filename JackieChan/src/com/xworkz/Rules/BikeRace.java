@@ -7,5 +7,7 @@ public interface BikeRace {
 
     void safety();
 
-
+    default void bikeCompany() {
+        System.out.println("Bike company is important");
+    }
 }

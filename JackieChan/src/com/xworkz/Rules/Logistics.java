@@ -7,4 +7,7 @@ public interface Logistics {
 
     void warehousing();
 
+    default void approval() {
+        System.out.println("Logistics approval is important");
+    }
 }

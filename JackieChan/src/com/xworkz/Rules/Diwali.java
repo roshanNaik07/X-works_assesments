@@ -17,4 +17,8 @@ public class Diwali implements Festival {
         System.out.println("Diwali festival: Celebrating the victory of light over darkness.");
     }
 
+    @Override
+    public void celebration() {
+        System.out.println("Diwali celebration: Exchanging sweets and gifts with family and friends.");
+    }
 }

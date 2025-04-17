@@ -7,4 +7,8 @@ public interface Bar {
     void safety();
 
     void respect();
+
+    default void barRules() {
+        System.out.println("Bar rules are important");
+    }
 }

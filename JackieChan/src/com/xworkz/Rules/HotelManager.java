@@ -16,4 +16,9 @@ public class HotelManager implements Hotel {
     public void service() {
         System.out.println("Hotel service is implemented");
     }
+
+    @Override
+    public void cleanliness() {
+        System.out.println("Hotel cleanliness is important");
+    }
 }

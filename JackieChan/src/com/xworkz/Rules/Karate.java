@@ -8,4 +8,7 @@ public interface Karate {
 
     void teachers();
 
+    default void learn() {
+        System.out.println("learn karate");
+    }
 }

@@ -16,4 +16,9 @@ public class WarShips implements Navy {
     public void navy() {
         System.out.println("Warships are part of the navy.");
     }
+
+    @Override
+    public void maintainShip() {
+        System.out.println("Maintaining the warship is crucial for navy operations.");
+    }
 }

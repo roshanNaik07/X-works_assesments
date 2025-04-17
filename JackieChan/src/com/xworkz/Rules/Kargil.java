@@ -15,4 +15,9 @@ public class Kargil implements War{
     public void war() {
         System.out.println("Kargil war");
     }
+
+    @Override
+    public void attack() {
+        System.out.println("Attack is important for Kargil.");
+    }
 }

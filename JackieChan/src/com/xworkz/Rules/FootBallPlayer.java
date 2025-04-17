@@ -16,4 +16,9 @@ public class FootBallPlayer implements FootBall {
     public void refereeDecision() {
         System.out.println("Referee decision");
     }
+
+    @Override
+    public void Practice() {
+        System.out.println("Football practice is essential");
+    }
 }

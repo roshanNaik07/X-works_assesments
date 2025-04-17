@@ -16,4 +16,9 @@ public class IndianBank implements Bank {
     public void bank() {
         System.out.println("Indian Bank");
     }
+
+    @Override
+    public void management() {
+        System.out.println("Management is important for Indian Bank");
+    }
 }

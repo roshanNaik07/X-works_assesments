@@ -8,4 +8,7 @@ public interface OrderFood {
 
     void payment();
 
+    default void type(){
+        System.out.println("Type of food");
+    }
 }

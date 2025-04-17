@@ -6,4 +6,8 @@ public interface Navy {
     void safety();
 
     void navy();
+
+    default void maintainShip() {
+        System.out.println("Maintaining the ship is crucial for navy operations.");
+    }
 }

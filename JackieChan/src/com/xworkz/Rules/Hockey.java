@@ -7,4 +7,7 @@ public interface Hockey {
 
     void equipment();
 
+    default void practice() {
+        System.out.println("Practice is important for hockey");
+    }
 }

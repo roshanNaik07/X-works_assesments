@@ -6,4 +6,8 @@ public interface War {
     void safety();
 
     void war();
+
+    default void attack() {
+        System.out.println("Attack is important for war.");
+    }
 }

@@ -17,4 +17,8 @@ public class AmazonFouna implements AmazonForest {
         System.out.println("AmazonFouna forest");
     }
 
+    @Override
+    public void protection() {
+        System.out.println("Protection is important for the AmazonFouna");
+    }
 }

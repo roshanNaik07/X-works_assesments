@@ -17,4 +17,8 @@ public class Biker implements BikeRace {
         System.out.println("Biker safety");
     }
 
+    @Override
+    public void bikeCompany() {
+        System.out.println("Biker company is important");
+    }
 }

@@ -16,4 +16,9 @@ public class ParkWatchMan implements Park{
     public void facilities() {
         System.out.println("Facilities available in the park");
     }
+
+    @Override
+    public void rules() {
+        System.out.println("Park rules are to be followed");
+    }
 }

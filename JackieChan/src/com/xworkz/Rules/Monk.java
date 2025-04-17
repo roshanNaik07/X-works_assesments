@@ -8,4 +8,7 @@ public interface Monk {
 
     void temples();
 
+    default void ashram() {
+        System.out.println("Monk ashram");
+    }
 }

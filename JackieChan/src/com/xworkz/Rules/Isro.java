@@ -17,4 +17,8 @@ public class Isro implements Satellite{
         System.out.println("Launch vehicle launched by ISRO");
     }
 
+    @Override
+    public void launch() {
+        System.out.println("Satellite launched by ISRO");
+    }
 }

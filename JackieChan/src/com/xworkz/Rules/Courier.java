@@ -6,4 +6,8 @@ public interface Courier {
     void safety();
 
     void courier();
+
+    default void price() {
+        System.out.println("The price for courier is 100.");
+    }
 }

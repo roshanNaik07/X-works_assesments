@@ -7,5 +7,7 @@ public interface Hotel {
 
     void service();
 
-
+    default void cleanliness() {
+        System.out.println("Hotel cleanliness is important");
+    }
 }

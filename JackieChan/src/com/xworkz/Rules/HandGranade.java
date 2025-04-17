@@ -16,4 +16,9 @@ public class HandGranade implements Granade {
     public void granade() {
         System.out.println("Hand Granade");
     }
+
+    @Override
+    public void safetyMeasures() {
+        System.out.println("Safety measures are important for hand grenades.");
+    }
 }

@@ -17,4 +17,8 @@ public class CleanRiver implements River{
         System.out.println("Clean River Signals");
     }
 
+    @Override
+    public void waterQuality() {
+        System.out.println("Clean River Water Quality");
+    }
 }

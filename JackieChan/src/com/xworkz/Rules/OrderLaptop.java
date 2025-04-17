@@ -17,4 +17,8 @@ public class OrderLaptop implements OnlineOrders{
         System.out.println("By placing an order, you agree to our terms and conditions.");
     }
 
+    @Override
+    public void paymentMethods() {
+        System.out.println("We accept various payment methods including credit cards, debit cards, and PayPal.");
+    }
 }

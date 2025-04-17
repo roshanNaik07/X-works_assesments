@@ -17,4 +17,8 @@ public class MotoGtRacing implements Racing {
         System.out.println("Moto Gt Racing");
     }
 
+    @Override
+    public void driver() {
+        System.out.println("The driver for Moto Gt Racing is John Doe.");
+    }
 }

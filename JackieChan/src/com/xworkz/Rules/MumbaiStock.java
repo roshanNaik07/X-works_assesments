@@ -16,4 +16,9 @@ public class MumbaiStock implements StockMarket {
     public void stockMarket() {
         System.out.println("Mumbai stock market");
     }
+
+    @Override
+    public void timing() {
+        System.out.println("The timing for Mumbai stock market is 9:00 AM to 3:30 PM.");
+    }
 }

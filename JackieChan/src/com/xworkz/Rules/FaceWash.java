@@ -17,4 +17,8 @@ public class FaceWash implements SkinCare{
         System.out.println("Moisturizer is important");
     }
 
+    @Override
+    public void skinCareRoutine() {
+        System.out.println("Skin care routine is important");
+    }
 }

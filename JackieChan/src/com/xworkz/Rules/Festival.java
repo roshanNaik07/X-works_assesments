@@ -6,4 +6,8 @@ public interface Festival {
     void ritual();
 
     void festival();
+
+    default void celebration() {
+        System.out.println("Celebration is important for festivals.");
+    }
 }

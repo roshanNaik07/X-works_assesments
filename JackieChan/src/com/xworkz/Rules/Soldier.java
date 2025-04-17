@@ -16,4 +16,9 @@ public class Soldier implements Military{
     public void soldiers() {
         System.out.println("Soldier training");
     }
+
+    @Override
+    public void force() {
+        System.out.println("Army");
+    }
 }

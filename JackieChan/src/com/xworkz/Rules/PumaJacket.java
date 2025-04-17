@@ -16,4 +16,9 @@ public class PumaJacket implements Jacket {
     public void jacket() {
         System.out.println("Puma jacket is stylish and comfortable");
     }
+
+    @Override
+    public void material() {
+        System.out.println("The material for Puma jacket is polyester.");
+    }
 }

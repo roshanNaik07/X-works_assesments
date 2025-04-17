@@ -7,4 +7,8 @@ public interface Temple {
     void pooja();
 
     void prasad();
+
+    default void rituals() {
+        System.out.println("Rituals are an important part of temple practices.");
+    }
 }

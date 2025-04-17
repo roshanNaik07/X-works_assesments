@@ -8,4 +8,7 @@ public interface Traffic {
 
     void signals();
 
+    default void speedLimit() {
+        System.out.println("Speed limit is important for road safety.");
+    }
 }

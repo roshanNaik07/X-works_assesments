@@ -16,4 +16,9 @@ public class NarendraModi implements PrimeMinister {
     public void primeMinister() {
         System.out.println("Prime Minister of India");
     }
+
+    @Override
+    public void foreignAffairs() {
+        System.out.println("Foreign affairs are important for Narendra Modi");
+    }
 }
