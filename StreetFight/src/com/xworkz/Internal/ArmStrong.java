@@ -22,6 +22,6 @@ public class ArmStrong {
             System.out.println(number+" is a armStrong number");
         }
         else
-            System.out.println(number+" is not a armStrong number");
+            System.out.println(number+" is not a ArmStrong number");
     }
 }

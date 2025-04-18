@@ -9,7 +9,7 @@ public class Runner {
 
         ArmStrong armStrong = new ArmStrong();
 
-        int number = 1634;
+        int number = 153;
         int returnValue = armStrong.checkArmStrong(number);
 
         System.out.println(returnValue);
