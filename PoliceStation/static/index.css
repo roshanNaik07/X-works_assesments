@@ -1,0 +1,29 @@
+.nav-item{
+    padding-left: 15vh;
+}
+
+.head1{
+padding:5vh ;
+}
+
+.para1{
+padding:2vh
+}
+
+.head2{
+padding:3vh ;
+}
+
+form{
+margin-left: 78vh;
+margin-bottom: 5vh;
+width: 50vh;
+border: 1px solid black;
+padding: 2vh;
+border-radius: 10px;
+
+}
+
+.btn-primary{
+    margin-left: 18vh;
+}
