@@ -39,7 +39,7 @@
     <h3> address : ${ address } </h3>
     <h3> location : ${ location } </h3>
     <h3> item : ${ item } </h3>
-    <h3> complaint id : ${ id } </h3>
+
 
 </center>
 

@@ -40,7 +40,7 @@
     <h3> location : ${location} </h3>
     <h3> marks : ${marks} </h3>
     <h3> gender : ${gender} </h3>
-    <h3> lang : ${lang} </h3>
+    <h3> lang : ${param.lang} </h3>
 
 </center>
 

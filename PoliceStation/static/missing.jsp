@@ -57,15 +57,15 @@
     </div>
     <div class="mb-3">
         <label  class="form-label">Marks </label>
-        <input type="text" class="form-control" name=" marks ">
+        <input type="text" class="form-control" name="marks">
     </div>
     <div class="mb-3">
         <label  class="form-label">Missing Person Gender </label>
-        <input type="text" class="form-control" name="gender ">
+        <input type="text" class="form-control" name="gender">
     </div>
     <div class="mb-3">
         <label  class="form-label">Lang Known </label>
-        <input type="text" class="form-control" name="lang ">
+        <input type="text" class="form-control" name="lang">
     </div>
     <button type="submit" class="btn btn-primary" >Submit</button>
 </form>

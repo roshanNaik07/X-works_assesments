@@ -17,8 +17,6 @@ public class TheftServlet extends GenericServlet {
         String item = servletRequest.getParameter("item");
         String lostOn = servletRequest.getParameter("lostOn");
 
-        RequestDispatcher requestDispatcher = servletRequest.getRequestDispatcher("theftResult.jsp");
-        requestDispatcher.forward(servletRequest, servletResponse);
         servletRequest.setAttribute("name", name );
         servletRequest.setAttribute("mobile", mobile);
         servletRequest.setAttribute("age", age);
@@ -26,6 +24,10 @@ public class TheftServlet extends GenericServlet {
         servletRequest.setAttribute("location", location);
         servletRequest.setAttribute("item", item);
         servletRequest.setAttribute("lostOn", lostOn);
+
+        RequestDispatcher requestDispatcher = servletRequest.getRequestDispatcher("theftResult.jsp");
+        requestDispatcher.forward(servletRequest, servletResponse);
+
 
     }
 }

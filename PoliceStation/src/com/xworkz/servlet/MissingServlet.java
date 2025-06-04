@@ -18,8 +18,6 @@ public class MissingServlet extends GenericServlet {
         String gender = servletRequest.getParameter("gender");
         String lang = servletRequest.getParameter("lang");
 
-        RequestDispatcher requestDispatcher = servletRequest.getRequestDispatcher("missingResult.jsp");
-        requestDispatcher.forward(servletRequest, servletResponse);
         servletRequest.setAttribute("name", name);
         servletRequest.setAttribute("mobile", mobile);
         servletRequest.setAttribute("age", age);
@@ -28,5 +26,9 @@ public class MissingServlet extends GenericServlet {
         servletRequest.setAttribute("marks", marks);
         servletRequest.setAttribute("gender",gender);
         servletRequest.setAttribute("lang", lang);
+
+        RequestDispatcher requestDispatcher = servletRequest.getRequestDispatcher("missingResult.jsp");
+        requestDispatcher.forward(servletRequest, servletResponse);
+
     }
 }
