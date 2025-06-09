@@ -1,13 +1,15 @@
-.nav-item{
-    padding-left: 15vh;
+.navbar{
+  padding: 20px;
+  font-size: 20px;
 }
 
 .head1{
-padding:5vh ;
+    margin-top:15vh
+
 }
 
 .para1{
-padding:2vh
+    margin:5vh
 }
 
 .head2{
@@ -15,7 +17,7 @@ padding:3vh ;
 }
 
 form{
-margin-left: 79vh;
+margin-left: 80vh;
 margin-bottom: 5vh;
 width: 50vh;
 border: 1px solid black;
