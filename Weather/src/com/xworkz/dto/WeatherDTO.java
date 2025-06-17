@@ -14,7 +14,6 @@ public class WeatherDTO implements Serializable {
 
     }
 
-
     public String getLocation() {
         return location;
     }

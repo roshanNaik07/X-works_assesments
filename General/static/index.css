@@ -1,0 +1,33 @@
+.navbar{
+  padding: 20px;
+  font-size: 20px;
+}
+
+.head1{
+    margin-top:5vh
+}
+
+.para1{
+    margin:5vh
+}
+
+.head2{
+padding:3vh ;
+}
+
+form{
+margin-left: 80vh;
+margin-bottom: 5vh;
+width: 50vh;
+border: 1px solid black;
+padding: 2vh;
+border-radius: 10px;
+}
+
+.btn-primary{
+    margin-left: 18vh;
+}
+
+.form-select{
+border-radius: 10px;
+}
