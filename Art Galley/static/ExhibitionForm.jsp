@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Art Gallery</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-    <link href="style.css" rel="stylesheet">
 </head>
 <body>
 
@@ -24,6 +23,10 @@
                     <a class="nav-link active" aria-current="page" href="ExhibitionForm.jsp"> Exhibition Form </a>
                 </li>
 
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="ArtResult.jsp"> Find art </a>
+                </li>
+
             </ul>
         </div>
     </div>
@@ -35,16 +38,21 @@
     <h2 class="head1"> Exhibition Registration From  </h2>
 </center>
 
+
+<span style="color : green">${message}</span>
+<span style="color : red">${errorMessage}</span>
+
+
 <form action="exhibit" method="post">
 
     <div class="mb-3">
         <label  class="form-label">Artist Name</label>
-        <input type="text" class="form-control" name="artist">
+        <input type="text" class="form-control" name="artist" value="${dto.artist}">
     </div>
 
     <div class="mb-3">
         <label  class="form-label">Art Title</label>
-        <input type="text" class="form-control" name="title">
+        <input type="text" class="form-control" name="title" value="${dto.title}">
     </div>
 
     <div>
@@ -64,26 +72,26 @@
     <br>
     <div class="mb-3">
         <label  class="form-label">Price</label>
-        <input type="number" class="form-control" name="price">
+        <input type="number" class="form-control" name="price" value="${dto.price}">
     </div>
 
     <div class="mb-3">
         <label  class="form-label"> Size </label>
-        <input type="text" class="form-control" name="size">
+        <input type="text" class="form-control" name="size" value="${dto.size}">
     </div>
 
     <div class="mb-3">
         <label  class="form-label">Material Used </label>
-        <input type="text" class="form-control" name="medium">
+        <input type="text" class="form-control" name="medium" value="${dto.medium}">
     </div>
 
     <div class="mb-3">
         <label  class="form-label">Contact Email</label>
-        <input type="email" class="form-control" name="email">
+        <input type="email" class="form-control" name="email" value="${dto.email}">
     </div>
 
     <label class="form-label">Select Exhibition Type : </label>
-    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+    <div class="btn-group" role="group" aria-label="Basic radio toggle button group" >
 
         <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked value="Online">
         <label class="btn btn-outline-primary" for="btnradio1">Online</label>

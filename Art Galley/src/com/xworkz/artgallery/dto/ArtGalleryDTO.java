@@ -4,14 +4,28 @@ import java.io.Serializable;
 
 public class ArtGalleryDTO implements Serializable {
 
-    String artist ;
-    String title ;
-    String artType ;
-    int price ;
-    String size ;
-    String medium ;
-    String email ;
-    String mode ;
+    private String artist ;
+    private String title ;
+    private String artType ;
+    private int price ;
+    private String size ;
+    private String medium ;
+    private String email ;
+    private String mode ;
+
+    public int getPk() {
+        return pk;
+    }
+
+    public void setPk(int pk) {
+        this.pk = pk;
+    }
+
+    private int pk;
+
+    public ArtGalleryDTO(){
+        System.out.println("Running no arg constructor of ArtGallery DTO");
+    }
 
     public ArtGalleryDTO(String artist, String title, String artType, int price, String size, String medium, String email, String mode) {
         this.artist = artist;
@@ -55,5 +69,20 @@ public class ArtGalleryDTO implements Serializable {
     public String getArtist() {
         return artist;
     }
+
+    @Override
+    public String toString() {
+        return "ArtGalleryDTO{" +
+                "artist='" + artist + '\'' +
+                ", title='" + title + '\'' +
+                ", artType='" + artType + '\'' +
+                ", price=" + price +
+                ", size='" + size + '\'' +
+                ", medium='" + medium + '\'' +
+                ", email='" + email + '\'' +
+                ", mode='" + mode + '\'' +
+                '}';
+    }
+
 
 }
