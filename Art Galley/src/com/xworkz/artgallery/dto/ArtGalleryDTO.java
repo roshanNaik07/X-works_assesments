@@ -12,6 +12,8 @@ public class ArtGalleryDTO implements Serializable {
     private String medium ;
     private String email ;
     private String mode ;
+    private int pk;
+
 
     public int getPk() {
         return pk;
@@ -21,7 +23,6 @@ public class ArtGalleryDTO implements Serializable {
         this.pk = pk;
     }
 
-    private int pk;
 
     public ArtGalleryDTO(){
         System.out.println("Running no arg constructor of ArtGallery DTO");
