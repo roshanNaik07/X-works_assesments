@@ -5,4 +5,6 @@ import com.xworkz.artgallery.dto.ArtGalleryDTO;
 public interface ArtGalleryService {
 
     String validAndSave(ArtGalleryDTO artGalleryDTO);
+
+    ArtGalleryDTO getById(int newId);
 }
