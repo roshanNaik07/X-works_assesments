@@ -37,11 +37,14 @@
     </div>
 </nav>
 
+<h1>All the signUp details are here</h1>
+
+
 <div class="table-responsive ">
     <table class="table mb-3 table-bordered table-success">
         <thead>
         <tr>
-            <th scope="col">SlNo.</th>
+            <th scope="col">SlNo</th>
             <th scope="col">Username</th>
             <th scope="col">Email</th>
             <th scope="col">Secrete</th>
