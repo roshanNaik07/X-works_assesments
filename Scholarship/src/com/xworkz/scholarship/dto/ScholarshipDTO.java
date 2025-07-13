@@ -4,8 +4,8 @@ import java.io.Serializable;
 
 public class ScholarshipDTO implements Serializable {
 
-    String username;
-    String email;
+   private String username;
+    private String email;
     String password;
     String confirmPassword;
 
