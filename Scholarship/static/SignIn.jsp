@@ -19,14 +19,20 @@
         <span class="navbar-brand mb-0 h1">Navbar</span>
         <div class="d-flex justify-content-right align-items-center ">
 
+            <div class="p-2">
+                <a class="btn btn-outline-light" href="retrieve"  role="button">Details</a>
+            </div>
+
             <div class="p-2 h3"><a class="icon-link align-items-center" href="index.jsp">
                 <i class="bi bi-house-door-fill"></i>
             </a>
             </div>
 
+
         </div>
     </div>
 </nav>
+
 
 
 </body>

@@ -1,5 +1,7 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns:c="http://www.w3.org/1999/XSL/Transform">
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,9 +12,6 @@
 
 </head>
 <body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
-        crossorigin="anonymous"></script>
 
 <nav class="navbar bg-body-tertiary p-3 " data-bs-theme="dark">
     <div class="container-fluid">
@@ -37,6 +36,29 @@
         </div>
     </div>
 </nav>
+
+<div class="table-responsive ">
+    <table class="table mb-3 table-bordered table-success">
+        <thead>
+        <tr>
+            <th scope="col">SlNo.</th>
+            <th scope="col">Username</th>
+            <th scope="col">Email</th>
+            <th scope="col">Secrete</th>
+        </tr>
+        </thead>
+        <tbody>
+        <c:forEach var="dto" items="${list}" varStatus="status">
+            <tr>
+                <th scope="row">${status.count}</th>
+                <td>${dto.username}</td>
+                <td>${dto.email}</td>
+                <td>${dto.password}</td>
+            </tr>
+        </c:forEach>
+        </tbody>
+    </table>
+</div>
 
 </body>
 </html>
