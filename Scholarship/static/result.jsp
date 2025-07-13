@@ -37,8 +37,6 @@
     </div>
 </nav>
 
-<h1>All the signUp details are here</h1>
-
 
 <div class="table-responsive ">
     <table class="table mb-3 table-bordered table-success">
