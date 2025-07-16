@@ -1,4 +1,4 @@
-package com.xworkz.park.Map;
+package com.xworkz.park.Map.external;
 
 import java.util.HashMap;
 import java.util.Map;
