@@ -11,48 +11,48 @@ public class ProductRunner {
 
     public static void main(String[] args) {
 
-        Ward ward1 = new Ward(25,"election","karnataka","bangalore");
-        Constituency constituency1 = new Constituency("priamble","karnataka",223,"1965",ward1);
-        PrimeMinister primeMinister1 = new PrimeMinister("modi",80,"BJP",5,constituency1);
-        Government government1 = new Government("state government","india","speaker",225,primeMinister1);
-        Tax tax1 = new Tax("GST",120 ,"food","2025",government1);
-        Bonus bonus1 = new Bonus("Credits",25000.00,"Election Commitee","5-5-2024",tax1);
-        SalaryExpectation salaryExpectation1 = new SalaryExpectation("Soahn","CM",80000.00,"indian rupees",bonus1);
+        Ward ward1 = new Ward(25, "election", "karnataka", "bangalore");
+        Constituency constituency1 = new Constituency("priamble", "karnataka", 223, "1965", ward1);
+        PrimeMinister primeMinister1 = new PrimeMinister("modi", 80, "BJP", 5, constituency1);
+        Government government1 = new Government("state government", "india", "speaker", 225, primeMinister1);
+        Tax tax1 = new Tax("GST", 120, "food", "2025", government1);
+        Bonus bonus1 = new Bonus("Credits", 25000.00, "Election Commitee", "5-5-2024", tax1);
+        SalaryExpectation salaryExpectation1 = new SalaryExpectation("Soahn", "CM", 80000.00, "indian rupees", bonus1);
 
         List<Criteria> criteria1 = new ArrayList<>();
-        criteria1.add(new Criteria("Handling","Resolves State issue",true,5,salaryExpectation1));
-        criteria1.add(new Criteria("managing","manage all issues",true,5,salaryExpectation1));
+        criteria1.add(new Criteria("Handling", "Resolves State issue", true, 5, salaryExpectation1));
+        criteria1.add(new Criteria("managing", "manage all issues", true, 5, salaryExpectation1));
 
-        Role role1 = new Role("CM","state issues","state govt",true,criteria1);
-        Designation designation1 = new Designation("CM","candidate","state",60000.00,role1);
-        President president1 = new President("kumar swami",75,"2-4-2023","CM",designation1);
-        University university1 = new University("vtu","belgam",1980,1000000,president1);
-        Education education1 = new Education("BE","vtu",2025,85.0,university1);
+        Role role1 = new Role("CM", "state issues", "state govt", true, criteria1);
+        Designation designation1 = new Designation("CM", "candidate", "state", 60000.00, role1);
+        President president1 = new President("kumar swami", 75, "2-4-2023", "CM", designation1);
+        University university1 = new University("vtu", "belgam", 1980, 1000000, president1);
+        Education education1 = new Education("BE", "vtu", 2025, 85.0, university1);
 
         List<Experience> experienceList1 = new ArrayList<>();
-        experienceList1.add(new Experience("police",5,"karnataka govt","psi",education1));
-        experienceList1.add(new Experience("professor",3,"vtu","proffessor",education1));
+        experienceList1.add(new Experience("police", 5, "karnataka govt", "psi", education1));
+        experienceList1.add(new Experience("professor", 3, "vtu", "proffessor", education1));
 
-        Inspector inspector1 = new Inspector("Muttu raj",6,"neernalli",7,experienceList1);
-        RTO rto1 = new RTO("HGSJ1245","Sirsi","Ganesh Poojari",15,inspector1);
-        Registration registraion1 = new Registration("MH 2056 86","John Wick","4 wheeler","14-12-2002",rto1);
-        Vehicle vehicle1 = new Vehicle("ford","black","mustang",360,registraion1);
-        Mayor mayor1 = new Mayor("Raju Bhai",6,"BJP","mumbai",vehicle1);
-        Information information1 = new Information("bussiness",15,"hindi",true,mayor1);
-        City city1 = new City("mumbai","maharashtra",2563.546,2364660,information1);
-        Address address1 = new Address("bangalore",581401,"Karnataka","india",city1);
-        Details details1 = new Details("Cream","post office",2,"traditional",address1);
+        Inspector inspector1 = new Inspector("Muttu raj", 6, "neernalli", 7, experienceList1);
+        RTO rto1 = new RTO("HGSJ1245", "Sirsi", "Ganesh Poojari", 15, inspector1);
+        Registration registraion1 = new Registration("MH 2056 86", "John Wick", "4 wheeler", "14-12-2002", rto1);
+        Vehicle vehicle1 = new Vehicle("ford", "black", "mustang", 360, registraion1);
+        Mayor mayor1 = new Mayor("Raju Bhai", 6, "BJP", "mumbai", vehicle1);
+        Information information1 = new Information("bussiness", 15, "hindi", true, mayor1);
+        City city1 = new City("mumbai", "maharashtra", 2563.546, 2364660, information1);
+        Address address1 = new Address("bangalore", 581401, "Karnataka", "india", city1);
+        Details details1 = new Details("Cream", "post office", 2, "traditional", address1);
 
         List<House> houseList1 = new ArrayList<>();
-        houseList1.add(new House("Mitri nilaya","Neernalli","3 BHK",21,details1));
-        houseList1.add(new House("Subhash nilaya","Rajajinagar","4 BHK",52,details1));
+        houseList1.add(new House("Mitri nilaya", "Neernalli", "3 BHK", 21, details1));
+        houseList1.add(new House("Subhash nilaya", "Rajajinagar", "4 BHK", 52, details1));
 
         List<Owner> ownerList1 = new ArrayList<>();
-        ownerList1.add(new Owner("roshan",22,"roshan@gmail.com",9110863479l,houseList1));
-        ownerList1.add(new Owner("rishi",21,"rishi@gmail.com",91108631516l,houseList1));
+        ownerList1.add(new Owner("roshan", 22, "roshan@gmail.com", 9110863479l, houseList1));
+        ownerList1.add(new Owner("rishi", 21, "rishi@gmail.com", 91108631516l, houseList1));
 
-        Company company1 = new Company("lenovo","bangalore","india","roshan",ownerList1);
-        Product product1 = new Product("laptop","electronic","lenovo",40000,company1);
+        Company company1 = new Company("lenovo", "bangalore", "india", "roshan", ownerList1);
+        Product product1 = new Product("laptop", "electronic", "lenovo", 40000, company1);
 
 
         Ward ward2 = new Ward(22, "transport", "Gujarat", "Chennai");
@@ -2373,6 +2373,16 @@ public class ProductRunner {
                 product56, product57, product58, product59, product60,
                 product61, product62, product63, product64, product65
         ));
+
+        System.out.println(" Getting ");
+        c.stream().filter(t -> "central government".equalsIgnoreCase(
+                t.getCompany().getOwnerList().get(1).getHouseList().get(1).getDetails().getAddress().getCity().getInformation()
+                        .getMayor().getVehical().getRegistration().getRto().getInspector().getExperienceList().get(1).getEducation().getUniversity()
+                        .getPresident().getDesignation().getRole().getCriteriaList().get(1).getSalaryExpectation().getBonus().getTax()
+                        .getGovernment().getGovernmentType()))
+                .forEach(t->System.out.print(" , " + t.getName()));
+
+
 
 
 
