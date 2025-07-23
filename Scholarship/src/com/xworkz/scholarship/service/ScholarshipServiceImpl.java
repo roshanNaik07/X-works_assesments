@@ -24,4 +24,14 @@ public class ScholarshipServiceImpl implements ScholarshipService {
         }
         return "Data not saved";
     }
+
+    @Override
+    public String validate(String formUsername, String formPassword) {
+
+        if (!formUsername.isEmpty() || !formPassword.isEmpty()) {
+            ScholarshipRepository scholarshipRepository = new ScholarshipRepositoryImpl();
+            scholarshipRepository.fetchSecrets(formUsername, formPassword);
+        }
+        return "invalid username and password";
+    }
 }

@@ -52,4 +52,18 @@ public class ScholarshipServlet extends HttpServlet {
         requestDispatcher.forward(req, resp);
 
     }
+
+    @Override
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
+        String formUsername = req.getParameter("userId");
+        String formPassword = req.getParameter("password");
+
+        System.out.println(formPassword);
+        System.out.println(formUsername);
+        ScholarshipService scholarshipService = new ScholarshipServiceImpl();
+        String result = scholarshipService.validate(formUsername,formPassword);
+
+        System.out.println(result);
+    }
 }
