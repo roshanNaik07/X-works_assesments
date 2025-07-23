@@ -5,4 +5,6 @@ import com.xworkz.scholarship.dto.ScholarshipDTO;
 public interface ScholarshipRepository {
 
     String save(ScholarshipDTO scholarshipDTO);
+
+    ScholarshipDTO fetchSecrets(String formUsername , String formPassword);
 }

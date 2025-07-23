@@ -37,4 +37,30 @@ public class ScholarshipRepositoryImpl implements ScholarshipRepository {
 
         return "null";
     }
+
+    @Override
+    public ScholarshipDTO fetchSecrets(String formUsername , String formPassword) {
+
+        System.out.println("Running fetchSecret in Service Repository");
+
+        try {
+            Class.forName("com.mysql.cj.jdbc.Driver");
+
+            Connection connection = DriverManager.getConnection(ClassLoaderEnum.URL.getProp() ,ClassLoaderEnum.USERNAME.getProp(),ClassLoaderEnum.SECRET.getProp());
+
+            String noConcatSql = "select * from sign_up_info where username = ? and password = ? ";
+
+            PreparedStatement preparedStatement = connection.prepareStatement(noConcatSql);
+
+            preparedStatement.setString(1,formUsername);
+            preparedStatement.setString(2,formPassword);
+
+            ResultSet resultSet = preparedStatement.executeQuery();
+
+        } catch (ClassNotFoundException | SQLException e) {
+            throw new RuntimeException(e);
+        }
+
+        return null;
+    }
 }

@@ -20,19 +20,41 @@
         <div class="d-flex justify-content-right align-items-center ">
 
             <div class="p-2">
-                <a class="btn btn-outline-light" href="retrieve"  role="button">Details</a>
+                <a class="btn btn-outline-light" href="retrieve" role="button">Details</a>
             </div>
 
             <div class="p-2 h3"><a class="icon-link align-items-center" href="index.jsp">
                 <i class="bi bi-house-door-fill"></i>
             </a>
             </div>
-
-
         </div>
     </div>
 </nav>
 
+
+<div class="container-fluid d-flex justify-content-center align-items-center min-vh-100 ">
+
+    <form class="shadow p-3 mb-5 bg-body-tertiary rounded p-5 border border-black border-opacity-50" action="signUp"
+          method="get">
+
+        <div class="mb-3">
+            <label for="userID1" class="form-label">User ID</label>
+            <br>
+            <input type="text" class="form-control" id="userID1" name="userId">
+        </div>
+
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <br>
+            <input type="password" class="form-control" id="exampleInputPassword1" name="password">
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <button type="submit" class="btn btn-outline-primary">Sign In</button>
+        </div>
+
+    </form>
+</div>
 
 
 </body>
