@@ -16,7 +16,7 @@
 
 <nav class="navbar bg-body-tertiary p-3 " data-bs-theme="dark">
     <div class="container-fluid">
-        <span class="navbar-brand mb-0 h1">Navbar</span>
+        <span class="navbar-brand mb-0 h1">Scholarship</span>
         <div class="d-flex justify-content-right align-items-center ">
 
             <div class="p-2 h3"><a class="icon-link align-items-center" href="index.jsp">
@@ -28,7 +28,11 @@
     </div>
 </nav>
 
-<div class="container-fluid d-flex justify-content-center align-items-center min-vh-100 ">
+<div class="container-fluid d-flex justify-content-center align-items-center mt-5 mb-3">
+    <h2>Sign Up</h2>
+</div>
+
+<div class="container-fluid d-flex justify-content-center align-items-center ">
 
     <form class="shadow p-3 mb-5 bg-body-tertiary rounded p-5 border border-black border-opacity-50" action="signUp" method="post">
         <div class="m-2">

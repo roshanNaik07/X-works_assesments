@@ -57,6 +57,14 @@ public class ScholarshipRepositoryImpl implements ScholarshipRepository {
 
             ResultSet resultSet = preparedStatement.executeQuery();
 
+            while (resultSet.next()){
+                String username = resultSet.getString("username");
+                String password = resultSet.getString("password");
+
+                ScholarshipDTO dto = new ScholarshipDTO(username,null,password,password);
+                return dto;
+            }
+
         } catch (ClassNotFoundException | SQLException e) {
             throw new RuntimeException(e);
         }

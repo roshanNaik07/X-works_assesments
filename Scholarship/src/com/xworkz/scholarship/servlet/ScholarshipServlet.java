@@ -37,19 +37,22 @@ public class ScholarshipServlet extends HttpServlet {
         switch (result) {
             case "UserName should be between 4 to 20 characters":
                 req.setAttribute("resultUsername", result);
+                RequestDispatcher requestDispatcher = req.getRequestDispatcher("SignUp.jsp");
+                requestDispatcher.forward(req, resp);
                 break;
 
             case "Password not matching":
                 req.setAttribute("resultPassword", result);
+                RequestDispatcher requestDispatcher1 = req.getRequestDispatcher("SignUp.jsp");
+                requestDispatcher1.forward(req, resp);
                 break;
 
             case "Data saved successfully":
                 req.setAttribute("saved", result);
+                RequestDispatcher requestDispatcher2 = req.getRequestDispatcher("SignIn.jsp");
+                requestDispatcher2.forward(req, resp);
                 break;
         }
-
-        RequestDispatcher requestDispatcher = req.getRequestDispatcher("SignUp.jsp");
-        requestDispatcher.forward(req, resp);
 
     }
 
@@ -62,8 +65,20 @@ public class ScholarshipServlet extends HttpServlet {
         System.out.println(formPassword);
         System.out.println(formUsername);
         ScholarshipService scholarshipService = new ScholarshipServiceImpl();
-        String result = scholarshipService.validate(formUsername,formPassword);
+        String result = scholarshipService.validate(formUsername, formPassword);
 
-        System.out.println(result);
+
+        switch (result) {
+            case "Login Successfully !":
+                req.setAttribute("Successful",result);
+                RequestDispatcher requestDispatcher = req.getRequestDispatcher("Schemes.jsp");
+                requestDispatcher.forward(req,resp);
+                break;
+            case "invalid username and password":
+                req.setAttribute("failed",result);
+                RequestDispatcher requestDispatcher1 = req.getRequestDispatcher("SignIn.jsp");
+                requestDispatcher1.forward(req,resp);
+                break;
+        }
     }
 }

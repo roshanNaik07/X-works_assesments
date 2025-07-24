@@ -15,24 +15,22 @@
 
 <nav class="navbar bg-body-tertiary p-3 " data-bs-theme="dark">
     <div class="container-fluid">
-        <span class="navbar-brand mb-0 h1">Navbar</span>
+        <span class="navbar-brand mb-0 h1">Scholarship</span>
         <div class="d-flex justify-content-right align-items-center ">
 
             <div class="d-flex flex-row ">
+
                 <div class="p-2">
-                    <a class="btn btn-outline-light" href="SignUp.jsp" role="button">Sign Up</a>
-                </div>
-                <div class="p-2">
-                    <a class="btn btn-outline-light" href="SignIn.jsp" role="button">Sign In</a>
+                    <a class="btn btn-outline-light" href="Schemes.jsp" role="button">Check Scheme</a>
                 </div>
 
             </div>
 
-            <div class="p-2 h3"><a class="icon-link align-items-center" href="index.jsp">
-                <i class="bi bi-house-door-fill"></i>
-            </a>
+            <div class="p-2">
+                <a class="btn btn-outline-light" href="index.jsp" role="button">Log out</a>
             </div>
 
+            </div>
         </div>
     </div>
 </nav>
