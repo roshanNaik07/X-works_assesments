@@ -11,7 +11,6 @@ public class ScholarshipServiceImpl implements ScholarshipService {
     public String validAndSave(ScholarshipDTO scholarshipDTO) {
 
         if (scholarshipDTO != null) {
-
             if (scholarshipDTO.getUsername().length() < 4 || scholarshipDTO.getUsername().length() > 20) {
                 return "UserName should be between 4 to 20 characters";
             } else if (!scholarshipDTO.getPassword().equals(scholarshipDTO.getConfirmPassword())) {
@@ -30,7 +29,13 @@ public class ScholarshipServiceImpl implements ScholarshipService {
 
         if (!formUsername.isEmpty() || !formPassword.isEmpty()) {
             ScholarshipRepository scholarshipRepository = new ScholarshipRepositoryImpl();
-            scholarshipRepository.fetchSecrets(formUsername, formPassword);
+            ScholarshipDTO dto = scholarshipRepository.fetchSecrets(formUsername, formPassword);
+            if (dto != null){
+                if (formUsername.equals(dto.getUsername()) && formPassword.equals(dto.getPassword())){
+                    System.out.println(dto);
+                    return "Login Successfully !";
+                }
+            }
         }
         return "invalid username and password";
     }

@@ -16,12 +16,8 @@
 
 <nav class="navbar bg-body-tertiary p-3 " data-bs-theme="dark">
     <div class="container-fluid">
-        <span class="navbar-brand mb-0 h1">Navbar</span>
+        <span class="navbar-brand mb-0 h1">Scholarship</span>
         <div class="d-flex justify-content-right align-items-center ">
-
-            <div class="p-2">
-                <a class="btn btn-outline-light" href="retrieve" role="button">Details</a>
-            </div>
 
             <div class="p-2 h3"><a class="icon-link align-items-center" href="index.jsp">
                 <i class="bi bi-house-door-fill"></i>
@@ -31,12 +27,16 @@
     </div>
 </nav>
 
-
-<div class="container-fluid d-flex justify-content-center align-items-center min-vh-100 ">
-
+<div class="container-fluid d-flex justify-content-center align-items-center mt-5 mb-3">
+    <h2>Login here</h2>
+</div>
+<div class="container-fluid d-flex justify-content-center align-items-center ">
     <form class="shadow p-3 mb-5 bg-body-tertiary rounded p-5 border border-black border-opacity-50" action="signUp"
           method="get">
-
+        <div class="mb-2">
+            <span style="color:green">${Successful}</span>
+            <span style="color:red">${failed}</span>
+        </div>
         <div class="mb-3">
             <label for="userID1" class="form-label">User ID</label>
             <br>
